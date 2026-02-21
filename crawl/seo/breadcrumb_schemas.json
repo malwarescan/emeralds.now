@@ -1,0 +1,4358 @@
+[
+  {
+    "product_id": "MUZEM_001",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "18k Yellow Gold Ring with Colombian Natural Emerald and Diamonds AN2243",
+          "item": "https://muzem.co/en/shop/yellow-gold/18k-yellow-gold-ring-with-colombian-natural-emerald-and-diamonds-an2243/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_002",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "18k Yellow Gold Ring with Natural Colombian Emerald Drop Cut M-AN08",
+          "item": "https://muzem.co/en/shop/yellow-gold/18k-yellow-gold-ring-with-natural-colombian-emerald-drop-cut-m-an08/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_003",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "18k Yellow Gold Ring with Natural Colombian Emerald Oval Size M-AN38",
+          "item": "https://muzem.co/en/shop/yellow-gold/18k-yellow-gold-ring-with-natural-colombian-emerald-oval-size-m-an38/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_004",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "18k Yellow Gold Ring with Natural Colombian Emerald Rectangular Cut AN2458",
+          "item": "https://muzem.co/en/shop/yellow-gold/18k-yellow-gold-ring-with-natural-colombian-emerald-rectangular-cut-an2458/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_005",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Aretes en plata con Esmeralda Natural Tallada AR001",
+          "item": "https://muzem.co/en/shop/silver/silver-earrings/aretes-en-plata-con-esmeralda-natural-tallada-ar001/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_006",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Bracelet in yellow gold PL94",
+          "item": "https://muzem.co/en/shop/yellow-gold/yellow-gold-bracelets/bracelet-in-yellow-gold-pl94/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_007",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Bracelet white gold PL86",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/round/bracelet-white-gold-pl86/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_008",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Bracelet with natural Emerald PL06",
+          "item": "https://muzem.co/en/shop/silver/silver-bracelets/bracelet-with-natural-emerald-pl06/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_009",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Bracelet with natural Emerald PL07",
+          "item": "https://muzem.co/en/shop/silver/silver-bracelets/bracelet-with-natural-emerald-pl07/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_010",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Bracelet with natural Emerald PL08",
+          "item": "https://muzem.co/en/shop/silver/silver-bracelets/bracelet-with-natural-emerald-pl08/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_011",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Bracelet yellow gold PL143",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/oval/bracelet-yellow-gold-pl143/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_012",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Bracelet yellow gold PL80",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/emerald/bracelet-yellow-gold-pl80/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_013",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "White Gold",
+          "item": "https://muzem.co/en/shop/white-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Chain in white gold CD1401",
+          "item": "https://muzem.co/en/shop/white-gold/chains-in-white-gold/chain-in-white-gold-cd1401/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_014",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "White Gold",
+          "item": "https://muzem.co/en/shop/white-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Chain in white gold CD1553",
+          "item": "https://muzem.co/en/shop/white-gold/chains-in-white-gold/chain-in-white-gold-cd1553/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_015",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Earrings in silver AR005",
+          "item": "https://muzem.co/en/shop/silver/silver-earrings/earrings-in-silver-ar005/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_016",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Earrings in silver AR006",
+          "item": "https://muzem.co/en/shop/silver/silver-earrings/earrings-in-silver-ar006/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_017",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Earrings in silver AR007",
+          "item": "https://muzem.co/en/shop/silver/silver-earrings/earrings-in-silver-ar007/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_018",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Earrings in silver AR008",
+          "item": "https://muzem.co/en/shop/silver/silver-earrings/earrings-in-silver-ar008/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_019",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Earrings in silver AR009",
+          "item": "https://muzem.co/en/shop/silver/silver-earrings/earrings-in-silver-ar009/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_020",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Earrings in silver AR010",
+          "item": "https://muzem.co/en/shop/silver/silver-earrings/earrings-in-silver-ar010/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_021",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Earrings in silver with carved natural emerald AR002",
+          "item": "https://muzem.co/en/shop/silver/silver-earrings/earrings-in-silver-with-carved-natural-emerald-ar002/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_022",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Earrings in silver with carved natural emerald AR003",
+          "item": "https://muzem.co/en/shop/silver/silver-earrings/earrings-in-silver-with-carved-natural-emerald-ar003/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_023",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Earrings in silver with Natural Emerald Carved AR004",
+          "item": "https://muzem.co/en/shop/silver/silver-earrings/earrings-in-silver-with-natural-emerald-carved-ar004/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_024",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Earrings in white gold AR1981",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/round/earrings-in-white-gold-ar1981/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_025",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Earrings in yellow gold AR2437",
+          "item": "https://muzem.co/en/shop/yellow-gold/yellow-gold-earrings/earrings-in-yellow-gold-ar2437/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_026",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Earrings in yellow gold AR2490",
+          "item": "https://muzem.co/en/shop/yellow-gold/earrings-in-yellow-gold-ar2490/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_027",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Earrings in yellow gold AR2882",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/marquise/earrings-in-yellow-gold-ar2882/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_028",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Earrings Yellow Gold AR2270",
+          "item": "https://muzem.co/en/shop/yellow-gold/yellow-gold-earrings/earrings-yellow-gold-ar2270/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_029",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Earrings yellow gold AR2725",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/teardrop/earrings-yellow-gold-ar2725/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_030",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in 18k yellow gold with carved natural emerald DJ2416",
+          "item": "https://muzem.co/en/shop/yellow-gold/yellow-gold-pendants/pendant-in-18k-yellow-gold-with-carved-natural-emerald-dj2416/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_031",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in 18k yellow gold with carved natural emerald DJ2420",
+          "item": "https://muzem.co/en/shop/yellow-gold/yellow-gold-pendants/pendant-in-18k-yellow-gold-with-carved-natural-emerald-dj2420/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_032",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in 18k yellow gold with carved natural emerald DJ2426",
+          "item": "https://muzem.co/en/shop/yellow-gold/yellow-gold-pendants/pendant-in-18k-yellow-gold-with-carved-natural-emerald-dj2426/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_033",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in 18k yellow gold with carved natural Emerald DJ2439",
+          "item": "https://muzem.co/en/shop/yellow-gold/yellow-gold-pendants/pendant-in-18k-yellow-gold-with-carved-natural-emerald-dj2439/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_034",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in 18k yellow gold with trapiche emeralds DJ2451",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/trapiche/pendant-in-18k-yellow-gold-with-trapiche-emeralds-dj2451/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_035",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in silver DJ00",
+          "item": "https://muzem.co/en/shop/silver/silver-pendants/pendant-in-silver-dj00/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_036",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in silver DJ010",
+          "item": "https://muzem.co/en/shop/silver/silver-pendants/pendant-in-silver-dj010/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_037",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in silver with carved natural emerald DJ001",
+          "item": "https://muzem.co/en/shop/silver/silver-pendants/pendant-in-silver-with-carved-natural-emerald-dj1000/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_038",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in silver with carved natural emerald DJ002",
+          "item": "https://muzem.co/en/shop/silver/silver-pendants/pendant-in-silver-with-carved-natural-emerald-dj002/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_039",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in silver with carved natural emerald DJ003",
+          "item": "https://muzem.co/en/shop/silver/silver-pendants/pendant-in-silver-with-carved-natural-emerald-dj003/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_040",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in silver with carved natural emerald DJ004",
+          "item": "https://muzem.co/en/shop/silver/silver-pendants/pendant-in-silver-with-carved-natural-emerald-dj004/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_041",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in silver with carved natural emerald DJ005",
+          "item": "https://muzem.co/en/shop/silver/silver-pendants/pendant-in-silver-with-carved-natural-emerald-dj005/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_042",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in silver with carved natural emerald DJ006",
+          "item": "https://muzem.co/en/shop/silver/silver-pendants/pendant-in-silver-with-carved-natural-emerald-dj006/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_043",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in silver with carved natural emerald DJ008",
+          "item": "https://muzem.co/en/shop/silver/silver-pendants/pendant-in-silver-with-carved-natural-emerald-dj008/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_044",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in silver with carved natural emerald DJ009",
+          "item": "https://muzem.co/en/shop/silver/silver-pendants/pendant-in-silver-with-carved-natural-emerald-dj009/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_045",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in white gold DJ1030",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/marquise/pendant-in-white-gold-dj1030/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_046",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in white gold DJ1299",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/rectangular/pendant-in-white-gold-dj1299/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_047",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in white gold DJ1350",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/oval/pendant-in-white-gold-dj1350/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_048",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in white gold DJ1385",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/cushion/pendant-in-white-gold-dj1385/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_049",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in white gold DJ58 GY",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/oval/pendant-in-white-gold-dj58-gy/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_050",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "White Gold",
+          "item": "https://muzem.co/en/shop/white-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in white gold DJ935",
+          "item": "https://muzem.co/en/shop/white-gold/white-gold-pendants/pendant-in-white-gold-dj935/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_051",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in yellow gold DJ1220",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/rectangular/pendant-in-yellow-gold-dj1220/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_052",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in yellow gold DJ1806",
+          "item": "https://muzem.co/en/shop/yellow-gold/yellow-gold-pendants/pendant-in-yellow-gold-dj1806/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_053",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in yellow gold DJ1879",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/heart/pendant-in-yellow-gold-dj1879/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_054",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in yellow gold DJ2117",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/rectangular/pendant-in-yellow-gold-dj2117/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_055",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in yellow gold DJ2171",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/round/pendant-in-yellow-gold-dj2171/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_056",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in yellow gold DJ2197",
+          "item": "https://muzem.co/en/shop/yellow-gold/pendant-in-yellow-gold-dj2197/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_057",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in yellow gold DJ2450",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/oval/pendant-in-yellow-gold-dj2450/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_058",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in yellow gold DJ2452",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/marquise/pendant-in-yellow-gold-dj2452/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_059",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pendant in yellow gold DJ2458",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/square/pendant-in-yellow-gold-dj2458/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_060",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "PL00 Silver Bracelet",
+          "item": "https://muzem.co/en/shop/silver/silver-bracelets/pl00-silver-bracelet/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_061",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "PL05 Silver Bracelet",
+          "item": "https://muzem.co/en/shop/silver/silver-bracelets/pl05-silver-bracelet/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_062",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Platinum",
+          "item": "https://muzem.co/en/shop/platinum/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Platinum Ring AN1017",
+          "item": "https://muzem.co/en/shop/platinum/platinum-ring-an1017/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_063",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Ring in 18k Yellow Gold with Emerald and Diamonds AN2044",
+          "item": "https://muzem.co/en/shop/yellow-gold/ring-in-18k-yellow-gold-with-emerald-and-diamonds-an2044/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_064",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Ring in 18k Yellow Gold with Natural Colombian Emerald High Quilted AN2467",
+          "item": "https://muzem.co/en/shop/yellow-gold/ring-in-18k-yellow-gold-with-natural-colombian-emerald-high-quilted-an2467/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_065",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Ring in yellow gold AN2171",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/trapiche/ring-in-yellow-gold-an2171/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_066",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Ring yellow gold Emerald 0.68 cts, drop cut AN2459",
+          "item": "https://muzem.co/en/shop/yellow-gold/ring-yellow-gold-emerald-0-68-cts-drop-cut-an2459/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_067",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Silver bracelet PL01",
+          "item": "https://muzem.co/en/shop/silver/silver-bracelets/silver-bracelet-pl01/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_068",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Silver bracelet PL02",
+          "item": "https://muzem.co/en/shop/silver/silver-bracelets/silver-bracelet-pl02/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_069",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Silver bracelet PL04",
+          "item": "https://muzem.co/en/shop/silver/silver-bracelets/silver-bracelet-pl04/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_070",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Silver earrings AR011",
+          "item": "https://muzem.co/en/shop/silver/silver-earrings/silver-earrings-ar011/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_071",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Silver pendant DJ011",
+          "item": "https://muzem.co/en/shop/silver/silver-pendants/silver-pendant-dj011/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_072",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Silver pendant DJ012",
+          "item": "https://muzem.co/en/shop/silver/silver-pendants/silver-pendant-dj012/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_073",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Silver ring AN001",
+          "item": "https://muzem.co/en/shop/silver/silver-rings/silver-ring-an001/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_074",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Silver Ring AN002",
+          "item": "https://muzem.co/en/shop/silver/silver-rings/silver-ring-an002/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_075",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Silver ring AN003",
+          "item": "https://muzem.co/en/shop/silver/silver-rings/silver-ring-an003/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_076",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Silver ring AN007",
+          "item": "https://muzem.co/en/shop/silver/silver-rings/silver-ring-an007/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_077",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Silver ring AN010",
+          "item": "https://muzem.co/en/shop/silver/silver-rings/silver-ring-an010/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_078",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Silver Ring with Natural Carved Emerald AN004",
+          "item": "https://muzem.co/en/shop/silver/silver-rings/silver-ring-with-natural-carved-emerald-an004/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_079",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Silver Ring with Natural Carved Emerald AN005",
+          "item": "https://muzem.co/en/shop/silver/silver-rings/silver-ring-with-natural-carved-emerald-an005/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_080",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Silver Ring with Natural Carved Emerald AN006",
+          "item": "https://muzem.co/en/shop/silver/silver-rings/silver-ring-with-natural-carved-emerald-an006/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_081",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Silver Ring with Natural Carved Emerald AN009",
+          "item": "https://muzem.co/en/shop/silver/silver-rings/silver-ring-with-natural-carved-emerald-an009/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_082",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Silver",
+          "item": "https://muzem.co/en/shop/silver/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Sterling Silver Pendant with Rough Natural Emerald DJ007",
+          "item": "https://muzem.co/en/shop/silver/silver-pendants/sterling-silver-pendant-with-rough-natural-emerald-dj007/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_083",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold earrings AR1541",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/oval/white-gold-earrings-ar1541/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_084",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold earrings AR1615",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/rectangular/white-gold-earrings-ar1615/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_085",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold earrings AR1832",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/round/white-gold-earrings-ar1832/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_086",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "White Gold",
+          "item": "https://muzem.co/en/shop/white-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold earrings AR1893",
+          "item": "https://muzem.co/en/shop/white-gold/white-gold-earrings/white-gold-earrings-ar1893/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_087",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold earrings AR1989",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/round/white-gold-earrings-ar1989/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_088",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold pendant DJ1367",
+          "item": "https://muzem.co/en/shop/uncategorized/white-gold-pendant-dj1367/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_089",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold pendant DJ1393",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/round/white-gold-pendant-dj1393/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_090",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold pendant DJ1506",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/teardrop/white-gold-pendant-dj1506/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_091",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold pendant DJ1511",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/teardrop/white-gold-pendant-dj1511/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_092",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold ring AN1342",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/round/white-gold-ring-an1342/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_093",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold ring AN1375",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/heart/white-gold-ring-an1375/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_094",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold ring AN1513",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/heart/white-gold-ring-an1513/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_095",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold ring AN1584",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/emerald/white-gold-ring-an1584/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_096",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold ring AN1585",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/emerald/white-gold-ring-an1585/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_097",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "White Gold",
+          "item": "https://muzem.co/en/shop/white-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold ring AN1593",
+          "item": "https://muzem.co/en/shop/white-gold/white-gold-rings/white-gold-ring-an1593/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_098",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "White Gold",
+          "item": "https://muzem.co/en/shop/white-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold ring AN1633",
+          "item": "https://muzem.co/en/shop/white-gold/white-gold-rings/white-gold-ring-an1633/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_099",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold ring AN1675",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/cushion/white-gold-ring-an1675/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_100",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold ring AN1677",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/rectangular/white-gold-ring-an1677/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_101",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "White Gold",
+          "item": "https://muzem.co/en/shop/white-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold ring AN938 OB",
+          "item": "https://muzem.co/en/shop/white-gold/white-gold-ring-an938-ob/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_102",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold ring AN947",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/rectangular/white-gold-ring-an947/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_103",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "White Gold",
+          "item": "https://muzem.co/en/shop/white-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "White gold ring with Moissanite AN1673",
+          "item": "https://muzem.co/en/shop/white-gold/white-gold-rings/white-gold-ring-with-moissanite-an1673/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_104",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold bracelet PL122",
+          "item": "https://muzem.co/en/shop/yellow-gold/yellow-gold-bracelets/yellow-gold-bracelet-pl122/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_105",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold bracelet PL98",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/trapiche/yellow-gold-bracelet-pl98/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_106",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold earrings AR12 GH",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/rectangular/yellow-gold-earrings-ar12-gh/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_107",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold earrings AR2698",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/oval/yellow-gold-earrings-ar2698/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_108",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold earrings AR2717",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/oval/yellow-gold-earrings-ar2717/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_109",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold earrings AR2766",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/rectangular/yellow-gold-earrings-ar2766/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_110",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold earrings AR2890",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/marquise/yellow-gold-earrings-ar2890/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_111",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold earrings DJ2414",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/emerald/yellow-gold-earrings-dj2414/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_112",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold pendant",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/trapiche/yellow-gold-pendant/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_113",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold pendant DJ1313",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/emerald/yellow-gold-pendant-dj1313/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_114",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold pendant DJ1694",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/round/yellow-gold-pendant-dj1694/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_115",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold pendant DJ1993",
+          "item": "https://muzem.co/en/shop/yellow-gold/yellow-gold-pendants/dj1993/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_116",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold pendant DJ1995",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/marquise/yellow-gold-pendant-dj1995/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_117",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold pendant DJ2211",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/round/yellow-gold-pendant-dj2211/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_118",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold pendant DJ2470",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/teardrop/yellow-gold-pendant-dj2470/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_119",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold ring AN 2071",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/marquise/yellow-gold-ring-an-2071/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_120",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold ring AN1361",
+          "item": "https://muzem.co/en/shop/yellow-gold/yellow-gold-rings/yellow-gold-ring-an1361/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_121",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold ring AN1626",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/trillion/yellow-gold-ring-an1626/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_122",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold ring AN1756",
+          "item": "https://muzem.co/en/shop/yellow-gold/yellow-gold-rings/yellow-gold-ring-an1756/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_123",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold ring AN1890",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/heart/yellow-gold-ring-an1890/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_124",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Yellow Gold",
+          "item": "https://muzem.co/en/shop/yellow-gold/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold ring AN1924",
+          "item": "https://muzem.co/en/shop/yellow-gold/yellow-gold-rings/white-gold-ring-an1924/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_125",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold ring AN1956",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/round/yellow-gold-ring-an1956/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_126",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold ring AN1958",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/cabochon/yellow-gold-ring-an1958/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_127",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold ring AN2072",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/marquise/yellow-gold-ring-an2072/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_128",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold ring AN2169",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/teardrop/yellow-gold-ring-an2169/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_129",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold ring AN2177",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/marquise/yellow-gold-ring-an2177/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_130",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold ring AN2183",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/rectangular/yellow-gold-ring-an2183/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_131",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold ring AN2184",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/rectangular/yellow-gold-ring-an2184/"
+        }
+      ]
+    }
+  },
+  {
+    "product_id": "MUZEM_132",
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://muzem.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shop",
+          "item": "https://muzem.co/en/shop/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jewelry",
+          "item": "https://muzem.co/en/shop/all/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yellow gold ring AN2216",
+          "item": "https://muzem.co/en/shop/stones-and-their-shapes/square/yellow-gold-ring-an2216/"
+        }
+      ]
+    }
+  }
+]

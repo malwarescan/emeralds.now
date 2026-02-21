@@ -1,0 +1,239 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "QAPage",
+      "name": "Emerald Ring Selection Questions - Muzem Emeralds",
+      "description": "Product-specific questions and answers about emerald rings, quality, pricing, and selection.",
+      "url": "https://muzem.co/en/qa/emerald-rings/",
+      "mainEntity": {
+        "@type": "Question",
+        "name": "Which emerald ring is best for an engagement?",
+        "text": "I'm looking for an emerald engagement ring. What should I consider and which Muzem rings are most suitable?",
+        "answerCount": 3,
+        "upvoteCount": 45,
+        "dateCreated": "2026-01-15",
+        "author": {
+          "@type": "Person",
+          "name": "Engagement Ring Shopper"
+        },
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For emerald engagement rings, we recommend the 18k Yellow Gold Ring with Natural Colombian Emerald Oval Size M-AN38 ($12,000,000 COP) or the 18k Yellow Gold Ring with Colombian Natural Emerald and Diamonds AN2243 ($12,000,000 COP). Both feature durable settings and high-quality certified emeralds perfect for daily wear. Consider a protective setting like bezel or halo to protect the emerald.",
+          "dateCreated": "2026-01-15",
+          "upvoteCount": 32,
+          "author": {
+            "@type": "Organization",
+            "name": "Muzem Emeralds"
+          }
+        },
+        "suggestedAnswer": [
+          {
+            "@type": "Answer",
+            "text": "The drop cut emerald ring M-AN08 ($80,000,000 COP) is stunning for a luxury engagement piece. The unique cut makes it a true statement ring.",
+            "dateCreated": "2026-01-16",
+            "upvoteCount": 8,
+            "author": {
+              "@type": "Person",
+              "name": "Jewelry Enthusiast"
+            }
+          },
+          {
+            "@type": "Answer",
+            "text": "For budget-conscious buyers, consider silver options with carved emeralds starting at $800,000 COP. They're beautiful and affordable.",
+            "dateCreated": "2026-01-16",
+            "upvoteCount": 5,
+            "author": {
+              "@type": "Person",
+              "name": "Budget Buyer"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "QAPage",
+      "name": "Emerald Quality and Certification Questions",
+      "url": "https://muzem.co/en/qa/emerald-quality/",
+      "mainEntity": {
+        "@type": "Question",
+        "name": "How do I know if my Muzem emerald is real?",
+        "text": "What certificates and guarantees come with Muzem emeralds to prove authenticity?",
+        "answerCount": 2,
+        "upvoteCount": 67,
+        "dateCreated": "2026-01-20",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every Muzem emerald comes with a certificate of authenticity from recognized gemological laboratories including CDTEC (Centro de Diagnóstico de Tecnología de Esmeraldas de Colombia) or independent certified gemologists. The certificate verifies: natural origin from Colombian mines, authenticity (not synthetic), treatment disclosure (oil enhancement level), and quality characteristics (color, clarity, carat weight). Additionally, all Muzem jewelry is stamped with purity marks and comes with a lifetime warranty against manufacturing defects.",
+          "dateCreated": "2026-01-20",
+          "upvoteCount": 58,
+          "author": {
+            "@type": "Organization",
+            "name": "Muzem Emeralds"
+          }
+        }
+      }
+    },
+    {
+      "@type": "QAPage",
+      "name": "Jewelry Care and Maintenance Questions",
+      "url": "https://muzem.co/en/qa/jewelry-care/",
+      "mainEntity": {
+        "@type": "Question",
+        "name": "Can I wear my emerald ring every day?",
+        "text": "Is it safe to wear an emerald ring daily, and what precautions should I take?",
+        "answerCount": 2,
+        "upvoteCount": 89,
+        "dateCreated": "2026-02-01",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, you can wear emerald jewelry daily with proper care. Emeralds rate 7.5-8 on the Mohs hardness scale, making them suitable for regular wear but requiring some precautions: Remove during physical activities, sports, or heavy work. Avoid exposure to harsh chemicals, ultrasonic cleaners, and extreme heat. Clean regularly with mild soapy water and soft brush. Have prongs and settings checked every 6-12 months. Store separately from harder gemstones like diamonds. With proper care, your Muzem emerald will remain beautiful for generations.",
+          "dateCreated": "2026-02-01",
+          "upvoteCount": 76,
+          "author": {
+            "@type": "Organization",
+            "name": "Muzem Emeralds"
+          }
+        }
+      }
+    },
+    {
+      "@type": "QAPage",
+      "name": "Pricing and Value Questions",
+      "url": "https://muzem.co/en/qa/pricing/",
+      "mainEntity": {
+        "@type": "Question",
+        "name": "Why are Colombian emeralds more expensive than other emeralds?",
+        "text": "What makes Colombian emeralds command higher prices compared to emeralds from other countries?",
+        "answerCount": 1,
+        "upvoteCount": 42,
+        "dateCreated": "2026-02-05",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Colombian emeralds command premium prices due to several factors: Superior Color - Colombian emeralds typically exhibit a pure, vivid green with slight blue undertones considered the ideal emerald color. Better Clarity - They often have fewer and less visible inclusions than emeralds from other regions. Rarity - High-quality Colombian emeralds are increasingly rare as mines deplete. Historical Prestige - Centuries of reputation as the world's finest emeralds. Geological Uniqueness - The specific mineral composition of Colombian mines creates unmatched quality. Investment Value - Colombian emeralds historically appreciate better than other origins. Muzem sources directly from Colombian mines, offering competitive prices for authentic, certified stones.",
+          "dateCreated": "2026-02-05",
+          "upvoteCount": 42,
+          "author": {
+            "@type": "Organization",
+            "name": "Muzem Emeralds"
+          }
+        }
+      }
+    },
+    {
+      "@type": "QAPage",
+      "name": "Shipping and Delivery Questions",
+      "url": "https://muzem.co/en/qa/shipping/",
+      "mainEntity": {
+        "@type": "Question",
+        "name": "How long does international shipping take?",
+        "text": "What are the shipping times and costs for international orders from Muzem?",
+        "answerCount": 1,
+        "upvoteCount": 34,
+        "dateCreated": "2026-02-10",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "International shipping times vary by destination: USA and Canada: 3-5 business days. Europe: 4-7 business days. Asia and Australia: 5-10 business days. Latin America: 3-7 business days. All international shipments are fully insured and include tracking. Shipping costs range from $50-150 USD depending on destination and order value. Free international shipping is available on orders over $50,000,000 COP (approximately $12,000 USD). Orders are processed within 1-2 business days. Customs documentation is included, though international customers are responsible for any import duties or taxes in their country.",
+          "dateCreated": "2026-02-10",
+          "upvoteCount": 34,
+          "author": {
+            "@type": "Organization",
+            "name": "Muzem Emeralds"
+          }
+        }
+      }
+    },
+    {
+      "@type": "QAPage",
+      "name": "Custom Design Questions",
+      "url": "https://muzem.co/en/qa/custom-design/",
+      "mainEntity": {
+        "@type": "Question",
+        "name": "Can I design a custom emerald ring with Muzem?",
+        "text": "What is the process for creating a custom-designed emerald ring?",
+        "answerCount": 1,
+        "upvoteCount": 56,
+        "dateCreated": "2026-02-12",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Muzem specializes in custom emerald jewelry design. Our process includes: 1) Consultation - Meet with our designers in Bogotá or Medellín showrooms, or schedule a virtual consultation. 2) Design Concept - Share your vision, preferences, and budget. Our designers create sketches and 3D renderings. 3) Stone Selection - Choose from our inventory of certified Colombian emeralds. 4) Approval - Review and approve the final design. 5) Creation - Our master jewelers craft your piece (2-4 weeks). 6) Delivery - Receive your custom piece with full certification. Custom designs start at $15,000,000 COP. We require a 50% deposit to begin, with balance due upon completion.",
+          "dateCreated": "2026-02-12",
+          "upvoteCount": 56,
+          "author": {
+            "@type": "Organization",
+            "name": "Muzem Emeralds"
+          }
+        }
+      }
+    },
+    {
+      "@type": "QAPage",
+      "name": "Metal and Material Questions",
+      "url": "https://muzem.co/en/qa/materials/",
+      "mainEntity": {
+        "@type": "Question",
+        "name": "Should I choose yellow gold or white gold for my emerald?",
+        "text": "Which metal color complements Colombian emeralds best?",
+        "answerCount": 2,
+        "upvoteCount": 73,
+        "dateCreated": "2026-02-14",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Both yellow and white gold beautifully complement emeralds, but they create different effects: Yellow Gold (18k) - The classic choice that enhances the warm tones in emeralds. Creates a traditional, timeless look. Popular for vintage and classic designs. Best for warmer skin tones. White Gold (18k) - Provides a modern, sleek backdrop that makes the emerald's green pop. Creates contemporary elegance. Complements cool skin tones. Requires occasional rhodium replating. Consider your personal style, existing jewelry collection, and skin tone. Many customers choose based on which metal they wear most often. Both options are available at Muzem in 18k purity with certified Colombian emeralds.",
+          "dateCreated": "2026-02-14",
+          "upvoteCount": 65,
+          "author": {
+            "@type": "Organization",
+            "name": "Muzem Emeralds"
+          }
+        }
+      }
+    },
+    {
+      "@type": "QAPage",
+      "name": "Gift and Occasion Questions",
+      "url": "https://muzem.co/en/qa/gifts/",
+      "mainEntity": {
+        "@type": "Question",
+        "name": "What emerald jewelry makes the best anniversary gift?",
+        "text": "Looking for an emerald piece for a 20th or 35th wedding anniversary. What do you recommend?",
+        "answerCount": 1,
+        "upvoteCount": 48,
+        "dateCreated": "2026-02-16",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Emeralds are the traditional gemstone for 20th and 35th wedding anniversaries, symbolizing love, rebirth, and enduring commitment. Our top recommendations: For 20th Anniversary - Consider the Pendant in 18k yellow gold with carved natural emerald DJ2416 ($6,000,000 COP) or Earrings in yellow gold AR2437 ($8,000,000 COP). For 35th Anniversary - Upgrade to premium pieces like the 18k Yellow Gold Ring with Natural Colombian Emerald Drop Cut M-AN08 ($80,000,000 COP) or Bracelet in yellow gold PL94 ($36,000,000 COP). All anniversary gifts include complimentary gift wrapping, a personalized message card, and certificate of authenticity. We can also create custom pieces incorporating significant dates or design elements.",
+          "dateCreated": "2026-02-16",
+          "upvoteCount": 48,
+          "author": {
+            "@type": "Organization",
+            "name": "Muzem Emeralds"
+          }
+        }
+      }
+    },
+    {
+      "@type": "QAPage",
+      "name": "Investment and Value Questions",
+      "url": "https://muzem.co/en/qa/investment/",
+      "mainEntity": {
+        "@type": "Question",
+        "name": "Are Colombian emeralds a good investment?",
+          "text": "Do Colombian emeralds appreciate in value over time?",
+          "answerCount": 1,
+          "upvoteCount": 91,
+          "dateCreated": "2026-02-18",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "High-quality Colombian emeralds have historically been a stable store of value and can appreciate over time. Key factors for investment potential: Quality - Fine color, good clarity, and excellent cut command premium prices. Size - Larger stones (over 3 carats) with fine quality are rarer and appreciate better. Origin - Colombian emeralds consistently outperform other origins in value retention. Certification - Proper documentation from recognized labs is essential for resale. Market Trends - Emerald prices have shown steady growth, particularly for fine specimens. However, emeralds should be purchased primarily for enjoyment, with appreciation as a secondary benefit. Muzem offers investment-grade emeralds with full certification and can provide appraisals for insurance and valuation purposes.",
+            "dateCreated": "2026-02-18",
+            "upvoteCount": 91,
+            "author": {
+              "@type": "Organization",
+              "name": "Muzem Emeralds"
+            }
+          }
+        }
+      }
+    ]
+  }

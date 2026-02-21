@@ -1,0 +1,162 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://muzem.co/#organization",
+      "name": "Muzem Emeralds",
+      "alternateName": "Muzem",
+      "url": "https://muzem.co",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://muzem.co/wp-content/uploads/logo.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://muzem.co/wp-content/uploads/hero-image.jpg",
+      "description": "4th Generation Family Jewelry - Certified Colombian Emeralds from Bogotá & Medellín, Colombia",
+      "slogan": "The Legacy of Colombian Emeralds",
+      "foundingDate": "1940",
+      "founders": [
+        {
+          "@type": "Person",
+          "name": "Muzem Family"
+        }
+      ],
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "Calle 100 # 8A-55",
+          "addressLocality": "Bogotá",
+          "addressRegion": "Cundinamarca",
+          "postalCode": "110111",
+          "addressCountry": "CO"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "Carrera 43A # 1-50",
+          "addressLocality": "Medellín",
+          "addressRegion": "Antioquia",
+          "postalCode": "050021",
+          "addressCountry": "CO"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+57-1-123-4567",
+        "contactType": "customer service",
+        "availableLanguage": [
+          "Spanish",
+          "English"
+        ],
+        "areaServed": "CO"
+      },
+      "sameAs": [
+        "https://www.instagram.com/muzem_emeralds/",
+        "https://www.facebook.com/muzememeralds",
+        "https://www.pinterest.com/muzememeralds"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Emerald Jewelry",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Rings"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Earrings"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Bracelets"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Pendants"
+            }
+          }
+        ]
+      },
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Custom Emerald Jewelry Design"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://muzem.co/#website",
+      "url": "https://muzem.co",
+      "name": "Muzem Emeralds",
+      "description": "4th Generation Colombian Emerald Jewelry",
+      "publisher": {
+        "@id": "https://muzem.co/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://muzem.co/en/shop/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": [
+        "en",
+        "es"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "JewelryStore",
+      "@id": "https://muzem.co/#jewelrystore",
+      "name": "Muzem Emeralds",
+      "description": "4th Generation Family Jewelry Store specializing in Certified Colombian Emeralds",
+      "url": "https://muzem.co",
+      "telephone": "+57-1-123-4567",
+      "email": "info@muzem.co",
+      "priceRange": "$$$$",
+      "currenciesAccepted": "COP",
+      "paymentAccepted": "Cash, Credit Card, Bank Transfer",
+      "openingHours": [
+        "Mo-Fr 09:00-18:00",
+        "Sa 10:00-14:00"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle 100 # 8A-55, Oficina 502",
+        "addressLocality": "Bogotá",
+        "addressRegion": "Cundinamarca",
+        "postalCode": "110111",
+        "addressCountry": "CO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "4.6781",
+        "longitude": "-74.0464"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Colombia"
+      },
+      "hasMap": "https://goo.gl/maps/muzem",
+      "image": "https://muzem.co/wp-content/uploads/store-image.jpg"
+    }
+  ]
+}

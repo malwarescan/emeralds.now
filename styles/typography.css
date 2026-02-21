@@ -1,0 +1,98 @@
+/**
+ * Emeralds.now — Typography
+ * Thin-as-silk: Display/Poster serif, hair-thin strokes (etched in glass).
+ * Cormorant Garamond 300. Letter-spacing 0.2em so words breathe.
+ */
+
+@layer base {
+  :root {
+    /* Display: Cormorant Garamond (Linotype Didot / Chronicle Display as premium fallbacks) */
+    --font-display: "Cormorant Garamond", "Linotype Didot", "Chronicle Display", Didot, Georgia, serif;
+    --font-technical: "Founders Grotesk", "IBM Plex Mono", ui-monospace, monospace;
+    --font-body: var(--font-technical);
+
+    /* Off-white mint for headings (not pure white) */
+    --color-heading: #f4fcf8;
+
+    /* Hierarchy — H1 56–76px, H2 28–40px, body 16–18px, micro 12–13px */
+    --text-h1-size: clamp(2.5rem, 4vw + 1.5rem, 4.75rem);  /* 40–76px */
+    --text-h1-height: 1.2;
+    --text-h1-spacing: 0.2em;
+
+    --text-h2-size: clamp(1.75rem, 2.5vw + 0.5rem, 2.5rem); /* 28–40px */
+    --text-h2-height: 1.2;
+    --text-h2-spacing: 0.2em;
+
+    --text-h3-size: clamp(1.25rem, 2vw + 0.25rem, 1.5rem);
+    --text-h3-height: 1.2;
+    --text-h3-spacing: 0.1em;
+
+    --text-body: clamp(1rem, 1vw + 0.5rem, 1.125rem);  /* 16–18px */
+    --text-body-height: 1.6;
+    --text-small: 0.8125rem;
+    --text-caption: 0.75rem;   /* 12px */
+    --text-micro: 0.8125rem;   /* 13px, +0.06em tracking */
+  }
+
+  html {
+    font-family: var(--font-body);
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
+  }
+
+  h1, .text-display-1 {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: var(--text-h1-size);
+    line-height: var(--text-h1-height);
+    letter-spacing: 0.1em;
+    font-kerning: normal;
+    font-feature-settings: "kern" 1;
+    color: var(--color-heading);
+  }
+
+  /* Cartier-style header: thin-as-silk, etched in glass */
+  h2, .text-display-2, .luxury-heading {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: var(--text-h2-size);
+    line-height: 1.2;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+    color: var(--color-heading);
+    font-kerning: normal;
+  }
+
+  h3, .text-heading-3 {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: var(--text-h3-size);
+    line-height: var(--text-h3-height);
+    letter-spacing: var(--text-h3-spacing);
+    color: var(--color-heading);
+  }
+
+  .text-technical {
+    font-family: var(--font-technical);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .text-caption, .text-meta {
+    font-size: var(--text-caption);
+    font-family: var(--font-technical);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .text-micro {
+    font-size: var(--text-micro);
+    font-family: var(--font-technical);
+    letter-spacing: 0.06em;
+  }
+
+  /* Hero brand: whisper, not shout — 25% smaller */
+  .hero-brand {
+    font-size: 0.75em;
+  }
+}

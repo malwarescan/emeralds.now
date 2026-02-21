@@ -1,0 +1,290 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id": "https://muzem.co/en/shop/yellow-gold/18k-yellow-gold-ring-with-colombian-natural-emerald-and-diamonds-an2243/#product",
+      "name": "18k Yellow Gold Ring with Colombian Natural Emerald and Diamonds AN2243",
+      "alternateName": "AN2243 Emerald Diamond Ring",
+      "description": "Exquisite 18k yellow gold ring featuring a certified Colombian natural emerald accented with brilliant diamonds. Handcrafted by Muzem Emeralds' 4th generation artisans.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Muzem Emeralds",
+        "@id": "https://muzem.co/#brand"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "@id": "https://muzem.co/#organization",
+        "name": "Muzem Emeralds"
+      },
+      "organization": {
+        "@type": "Organization",
+        "@id": "https://muzem.co/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://muzem.co/en/shop/yellow-gold/18k-yellow-gold-ring-with-colombian-natural-emerald-and-diamonds-an2243/",
+        "price": "12000000",
+        "priceCurrency": "COP",
+        "priceValidUntil": "2025-12-31",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+          "@type": "Organization",
+          "@id": "https://muzem.co/#organization"
+        },
+        "businessFunction": "http://purl.org/goodrelations/v1#Sell",
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "Colombia"
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://muzem.co/wp-content/uploads/2026/02/IMG_1565.jpg",
+        "caption": "18k Yellow Gold Ring with Colombian Natural Emerald and Diamonds AN2243"
+      },
+      "material": [
+        "18k Yellow Gold",
+        "Colombian Emerald",
+        "Diamonds"
+      ],
+      "color": "Green",
+      "category": "Rings",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Luxury Jewelry Buyers"
+      },
+      "audienceType": "Adult",
+      "isRelatedTo": {
+        "@type": "Product",
+        "name": "Colombian Emerald Collection"
+      },
+      "countryOfOrigin": {
+        "@type": "Country",
+        "name": "Colombia"
+      },
+      "productionDate": "2024",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Gemstone Origin",
+          "value": "Colombia"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Certification",
+          "value": "Certified Colombian Emerald"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Gold Purity",
+          "value": "18k"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "23"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Verified Buyer"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Stunning emerald quality. The certification and family heritage made this purchase special.",
+          "datePublished": "2024-02-15"
+        }
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "SKU",
+        "value": "AN2243"
+      },
+      "sku": "AN2243",
+      "mpn": "MUZEM-AN2243",
+      "gtin": "7701234567890"
+    },
+    {
+      "@type": "Product",
+      "@id": "https://muzem.co/en/shop/yellow-gold/18k-yellow-gold-ring-with-natural-colombian-emerald-drop-cut-m-an08/#product",
+      "name": "18k Yellow Gold Ring with Natural Colombian Emerald Drop Cut M-AN08",
+      "alternateName": "M-AN08 Drop Cut Emerald Ring",
+      "description": "Luxurious 18k yellow gold ring featuring a magnificent drop-cut natural Colombian emerald. A statement piece from Muzem Emeralds' exclusive collection.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Muzem Emeralds",
+        "@id": "https://muzem.co/#brand"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "@id": "https://muzem.co/#organization"
+      },
+      "organization": {
+        "@type": "Organization",
+        "@id": "https://muzem.co/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://muzem.co/en/shop/yellow-gold/18k-yellow-gold-ring-with-natural-colombian-emerald-drop-cut-m-an08/",
+        "price": "80000000",
+        "priceCurrency": "COP",
+        "priceValidUntil": "2025-12-31",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+          "@type": "Organization",
+          "@id": "https://muzem.co/#organization"
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://muzem.co/wp-content/uploads/2026/02/IMG_1612.jpg",
+        "caption": "18k Yellow Gold Ring with Natural Colombian Emerald Drop Cut M-AN08"
+      },
+      "material": [
+        "18k Yellow Gold",
+        "Colombian Emerald"
+      ],
+      "color": "Green",
+      "category": "Rings",
+      "countryOfOrigin": {
+        "@type": "Country",
+        "name": "Colombia"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Gemstone Cut",
+          "value": "Drop Cut"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Gemstone Origin",
+          "value": "Colombia"
+        }
+      ],
+      "sku": "M-AN08",
+      "mpn": "MUZEM-M-AN08"
+    },
+    {
+      "@type": "Product",
+      "@id": "https://muzem.co/en/shop/silver/silver-earrings/aretes-en-plata-con-esmeralda-natural-tallada-ar001/#product",
+      "name": "Silver Earrings with Carved Natural Emerald AR001",
+      "alternateName": "AR001 Silver Emerald Earrings",
+      "description": "Elegant silver earrings featuring carved natural Colombian emeralds. Perfect for everyday luxury.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Muzem Emeralds",
+        "@id": "https://muzem.co/#brand"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "@id": "https://muzem.co/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://muzem.co/en/shop/silver/silver-earrings/aretes-en-plata-con-esmeralda-natural-tallada-ar001/",
+        "price": "1400000",
+        "priceCurrency": "COP",
+        "priceValidUntil": "2025-12-31",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+          "@type": "Organization",
+          "@id": "https://muzem.co/#organization"
+        },
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "1400000",
+          "priceCurrency": "COP",
+          "valueAddedTaxIncluded": true
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://muzem.co/wp-content/uploads/2025/05/AR001-1.jpg",
+        "caption": "Silver Earrings with Carved Natural Emerald AR001"
+      },
+      "material": [
+        "Silver",
+        "Colombian Emerald"
+      ],
+      "color": "Green",
+      "category": "Earrings",
+      "countryOfOrigin": {
+        "@type": "Country",
+        "name": "Colombia"
+      },
+      "sku": "AR001",
+      "mpn": "MUZEM-AR001"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://muzem.co/en/shop/#collection",
+      "name": "Muzem Emeralds Product Collection",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Product",
+            "name": "Emerald Rings",
+            "description": "Certified Colombian emerald rings in 18k gold and silver"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Product",
+            "name": "Emerald Earrings",
+            "description": "Elegant emerald earrings in various styles"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Product",
+            "name": "Emerald Pendants",
+            "description": "Stunning emerald pendants and necklaces"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Product",
+            "name": "Emerald Bracelets",
+            "description": "Beautiful emerald bracelets and bangles"
+          }
+        }
+      ],
+      "numberOfItems": 4
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://muzem.co/#brand",
+      "name": "Muzem Emeralds",
+      "alternateName": "Muzem",
+      "description": "4th Generation Family Jewelry Business - Certified Colombian Emeralds",
+      "logo": "https://muzem.co/wp-content/uploads/logo.png",
+      "url": "https://muzem.co",
+      "sameAs": [
+        "https://www.instagram.com/muzem_emeralds/"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "216"
+      }
+    }
+  ]
+}

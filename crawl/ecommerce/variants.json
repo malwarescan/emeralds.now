@@ -1,0 +1,2794 @@
+{
+  "generated_at": "2026-02-22T02:06:31.781340",
+  "variant_types": {
+    "size": {
+      "name": "Size",
+      "applies_to": [
+        "Ring"
+      ],
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "unit": "US Ring Size"
+    },
+    "material": {
+      "name": "Material",
+      "applies_to": [
+        "Ring",
+        "Earrings",
+        "Pendant",
+        "Bracelet"
+      ],
+      "options": [
+        {
+          "value": "18k Yellow Gold",
+          "price_multiplier": 1.0
+        },
+        {
+          "value": "White Gold",
+          "price_multiplier": 1.0
+        },
+        {
+          "value": "Silver",
+          "price_multiplier": 0.25
+        },
+        {
+          "value": "Platinum",
+          "price_multiplier": 1.5
+        }
+      ]
+    },
+    "emerald_cut": {
+      "name": "Emerald Cut",
+      "applies_to": [
+        "Ring",
+        "Earrings",
+        "Pendant"
+      ],
+      "options": [
+        "Natural",
+        "Carved",
+        "Trapiche",
+        "Rough",
+        "Oval",
+        "Round",
+        "Rectangular",
+        "Square",
+        "Marquise",
+        "Heart",
+        "Cushion",
+        "Drop Cut",
+        "Emerald Cut",
+        "Cabochon",
+        "Trillion"
+      ]
+    }
+  },
+  "products_with_variants": [
+    {
+      "product_id": "MUZEM_001",
+      "sku": "MUZ-YG18-RNG-001",
+      "title": "18k Yellow Gold Ring with Colombian Natural Emerald and Diamonds AN2243",
+      "base_price_cop": 12000000,
+      "base_price_usd": 3000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-001-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-001-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-001-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_002",
+      "sku": "MUZ-YG18-RNG-002",
+      "title": "18k Yellow Gold Ring with Natural Colombian Emerald Drop Cut M-AN08",
+      "base_price_cop": 80000000,
+      "base_price_usd": 20000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-002-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 80000000,
+          "price_usd": 20000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-002-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 80000000,
+          "price_usd": 20000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-002-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 80000000,
+          "price_usd": 20000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_003",
+      "sku": "MUZ-YG18-RNG-003",
+      "title": "18k Yellow Gold Ring with Natural Colombian Emerald Oval Size M-AN38",
+      "base_price_cop": 12000000,
+      "base_price_usd": 3000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-003-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-003-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-003-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_004",
+      "sku": "MUZ-YG18-RNG-004",
+      "title": "18k Yellow Gold Ring with Natural Colombian Emerald Rectangular Cut AN2458",
+      "base_price_cop": 8000000,
+      "base_price_usd": 2000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-004-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 8000000,
+          "price_usd": 2000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-004-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 8000000,
+          "price_usd": 2000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-004-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 8000000,
+          "price_usd": 2000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_015",
+      "sku": "MUZ-SV925-RNG-015",
+      "title": "Earrings in silver AR005",
+      "base_price_cop": 12000000,
+      "base_price_usd": 3000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-015-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-015-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-015-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_016",
+      "sku": "MUZ-SV925-RNG-016",
+      "title": "Earrings in silver AR006",
+      "base_price_cop": 20000000,
+      "base_price_usd": 5000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-016-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 20000000,
+          "price_usd": 5000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-016-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 20000000,
+          "price_usd": 5000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-016-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 20000000,
+          "price_usd": 5000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_017",
+      "sku": "MUZ-SV925-RNG-017",
+      "title": "Earrings in silver AR007",
+      "base_price_cop": 1800000,
+      "base_price_usd": 450.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-017-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 1800000,
+          "price_usd": 450.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-017-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 1800000,
+          "price_usd": 450.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-017-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 1800000,
+          "price_usd": 450.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_018",
+      "sku": "MUZ-SV925-RNG-018",
+      "title": "Earrings in silver AR008",
+      "base_price_cop": 1800000,
+      "base_price_usd": 450.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-018-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 1800000,
+          "price_usd": 450.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-018-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 1800000,
+          "price_usd": 450.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-018-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 1800000,
+          "price_usd": 450.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_019",
+      "sku": "MUZ-SV925-RNG-019",
+      "title": "Earrings in silver AR009",
+      "base_price_cop": 2500000,
+      "base_price_usd": 625.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-019-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 2500000,
+          "price_usd": 625.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-019-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 2500000,
+          "price_usd": 625.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-019-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 2500000,
+          "price_usd": 625.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_020",
+      "sku": "MUZ-SV925-RNG-020",
+      "title": "Earrings in silver AR010",
+      "base_price_cop": 2500000,
+      "base_price_usd": 625.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-020-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 2500000,
+          "price_usd": 625.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-020-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 2500000,
+          "price_usd": 625.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-020-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 2500000,
+          "price_usd": 625.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_021",
+      "sku": "MUZ-SV925-RNG-021",
+      "title": "Earrings in silver with carved natural emerald AR002",
+      "base_price_cop": 1200000,
+      "base_price_usd": 300.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-021-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 1200000,
+          "price_usd": 300.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-021-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 1200000,
+          "price_usd": 300.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-021-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 1200000,
+          "price_usd": 300.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_022",
+      "sku": "MUZ-SV925-RNG-022",
+      "title": "Earrings in silver with carved natural emerald AR003",
+      "base_price_cop": 1200000,
+      "base_price_usd": 300.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-022-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 1200000,
+          "price_usd": 300.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-022-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 1200000,
+          "price_usd": 300.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-022-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 1200000,
+          "price_usd": 300.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_023",
+      "sku": "MUZ-SV925-RNG-023",
+      "title": "Earrings in silver with Natural Emerald Carved AR004",
+      "base_price_cop": 3000000,
+      "base_price_usd": 750.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-023-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 3000000,
+          "price_usd": 750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-023-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 3000000,
+          "price_usd": 750.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-023-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 3000000,
+          "price_usd": 750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_024",
+      "sku": "MUZ-WG18-RNG-024",
+      "title": "Earrings in white gold AR1981",
+      "base_price_cop": 4000000,
+      "base_price_usd": 1000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-024-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 4000000,
+          "price_usd": 1000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-024-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 4000000,
+          "price_usd": 1000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-024-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 4000000,
+          "price_usd": 1000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_025",
+      "sku": "MUZ-YG18-RNG-025",
+      "title": "Earrings in yellow gold AR2437",
+      "base_price_cop": 12000000,
+      "base_price_usd": 3000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-025-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-025-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-025-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_026",
+      "sku": "MUZ-YG18-RNG-026",
+      "title": "Earrings in yellow gold AR2490",
+      "base_price_cop": 15000000,
+      "base_price_usd": 3750.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-026-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 15000000,
+          "price_usd": 3750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-026-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 15000000,
+          "price_usd": 3750.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-026-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 15000000,
+          "price_usd": 3750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_027",
+      "sku": "MUZ-YG18-RNG-027",
+      "title": "Earrings in yellow gold AR2882",
+      "base_price_cop": 6500000,
+      "base_price_usd": 1625.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-027-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 6500000,
+          "price_usd": 1625.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-027-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 6500000,
+          "price_usd": 1625.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-027-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 6500000,
+          "price_usd": 1625.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_028",
+      "sku": "MUZ-YG18-RNG-028",
+      "title": "Earrings Yellow Gold AR2270",
+      "base_price_cop": 15000000,
+      "base_price_usd": 3750.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-028-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 15000000,
+          "price_usd": 3750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-028-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 15000000,
+          "price_usd": 3750.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-028-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 15000000,
+          "price_usd": 3750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_029",
+      "sku": "MUZ-YG18-RNG-029",
+      "title": "Earrings yellow gold AR2725",
+      "base_price_cop": 10000000,
+      "base_price_usd": 2500.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-029-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 10000000,
+          "price_usd": 2500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-029-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 10000000,
+          "price_usd": 2500.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-029-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 10000000,
+          "price_usd": 2500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_062",
+      "sku": "MUZ-PT950-RNG-062",
+      "title": "Platinum Ring AN1017",
+      "base_price_cop": 32000000,
+      "base_price_usd": 8000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-PT950-RNG-062-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 32000000,
+          "price_usd": 8000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-PT950-RNG-062-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 32000000,
+          "price_usd": 8000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-PT950-RNG-062-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 32000000,
+          "price_usd": 8000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_063",
+      "sku": "MUZ-YG18-RNG-063",
+      "title": "Ring in 18k Yellow Gold with Emerald and Diamonds AN2044",
+      "base_price_cop": 12000000,
+      "base_price_usd": 3000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-063-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-063-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-063-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_064",
+      "sku": "MUZ-YG18-RNG-064",
+      "title": "Ring in 18k Yellow Gold with Natural Colombian Emerald High Quilted AN2467",
+      "base_price_cop": 92000000,
+      "base_price_usd": 23000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-064-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 92000000,
+          "price_usd": 23000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-064-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 92000000,
+          "price_usd": 23000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-064-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 92000000,
+          "price_usd": 23000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_065",
+      "sku": "MUZ-YG18-RNG-065",
+      "title": "Ring in yellow gold AN2171",
+      "base_price_cop": 100000000,
+      "base_price_usd": 25000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-065-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 100000000,
+          "price_usd": 25000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-065-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 100000000,
+          "price_usd": 25000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-065-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 100000000,
+          "price_usd": 25000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_066",
+      "sku": "MUZ-YG18-RNG-066",
+      "title": "Ring yellow gold Emerald 0.68 cts, drop cut AN2459",
+      "base_price_cop": 12400000,
+      "base_price_usd": 3100.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-066-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 12400000,
+          "price_usd": 3100.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-066-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 12400000,
+          "price_usd": 3100.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-066-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 12400000,
+          "price_usd": 3100.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_070",
+      "sku": "MUZ-SV925-RNG-070",
+      "title": "Silver earrings AR011",
+      "base_price_cop": 9000000,
+      "base_price_usd": 2250.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-070-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 9000000,
+          "price_usd": 2250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-070-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 9000000,
+          "price_usd": 2250.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-070-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 9000000,
+          "price_usd": 2250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_073",
+      "sku": "MUZ-SV925-RNG-073",
+      "title": "Silver ring AN001",
+      "base_price_cop": 1500000,
+      "base_price_usd": 375.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-073-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 1500000,
+          "price_usd": 375.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-073-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 1500000,
+          "price_usd": 375.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-073-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 1500000,
+          "price_usd": 375.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_074",
+      "sku": "MUZ-SV925-RNG-074",
+      "title": "Silver Ring AN002",
+      "base_price_cop": 1200000,
+      "base_price_usd": 300.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-074-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 1200000,
+          "price_usd": 300.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-074-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 1200000,
+          "price_usd": 300.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-074-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 1200000,
+          "price_usd": 300.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_075",
+      "sku": "MUZ-SV925-RNG-075",
+      "title": "Silver ring AN003",
+      "base_price_cop": 1000000,
+      "base_price_usd": 250.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-075-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 1000000,
+          "price_usd": 250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-075-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 1000000,
+          "price_usd": 250.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-075-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 1000000,
+          "price_usd": 250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_076",
+      "sku": "MUZ-SV925-RNG-076",
+      "title": "Silver ring AN007",
+      "base_price_cop": 4500000,
+      "base_price_usd": 1125.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-076-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 4500000,
+          "price_usd": 1125.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-076-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 4500000,
+          "price_usd": 1125.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-076-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 4500000,
+          "price_usd": 1125.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_077",
+      "sku": "MUZ-SV925-RNG-077",
+      "title": "Silver ring AN010",
+      "base_price_cop": 4000000,
+      "base_price_usd": 1000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-077-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 4000000,
+          "price_usd": 1000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-077-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 4000000,
+          "price_usd": 1000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-077-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 4000000,
+          "price_usd": 1000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_078",
+      "sku": "MUZ-SV925-RNG-078",
+      "title": "Silver Ring with Natural Carved Emerald AN004",
+      "base_price_cop": 900000,
+      "base_price_usd": 225.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-078-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 900000,
+          "price_usd": 225.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-078-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 900000,
+          "price_usd": 225.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-078-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 900000,
+          "price_usd": 225.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_079",
+      "sku": "MUZ-SV925-RNG-079",
+      "title": "Silver Ring with Natural Carved Emerald AN005",
+      "base_price_cop": 1200000,
+      "base_price_usd": 300.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-079-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 1200000,
+          "price_usd": 300.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-079-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 1200000,
+          "price_usd": 300.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-079-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 1200000,
+          "price_usd": 300.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_080",
+      "sku": "MUZ-SV925-RNG-080",
+      "title": "Silver Ring with Natural Carved Emerald AN006",
+      "base_price_cop": 2500000,
+      "base_price_usd": 625.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-080-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 2500000,
+          "price_usd": 625.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-080-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 2500000,
+          "price_usd": 625.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-080-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 2500000,
+          "price_usd": 625.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_081",
+      "sku": "MUZ-SV925-RNG-081",
+      "title": "Silver Ring with Natural Carved Emerald AN009",
+      "base_price_cop": 3500000,
+      "base_price_usd": 875.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-SV925-RNG-081-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 3500000,
+          "price_usd": 875.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-081-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 3500000,
+          "price_usd": 875.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-SV925-RNG-081-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 3500000,
+          "price_usd": 875.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_083",
+      "sku": "MUZ-WG18-RNG-083",
+      "title": "White gold earrings AR1541",
+      "base_price_cop": 14000000,
+      "base_price_usd": 3500.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-083-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 14000000,
+          "price_usd": 3500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-083-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 14000000,
+          "price_usd": 3500.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-083-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 14000000,
+          "price_usd": 3500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_084",
+      "sku": "MUZ-WG18-RNG-084",
+      "title": "White gold earrings AR1615",
+      "base_price_cop": 8000000,
+      "base_price_usd": 2000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-084-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 8000000,
+          "price_usd": 2000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-084-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 8000000,
+          "price_usd": 2000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-084-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 8000000,
+          "price_usd": 2000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_085",
+      "sku": "MUZ-WG18-RNG-085",
+      "title": "White gold earrings AR1832",
+      "base_price_cop": 6000000,
+      "base_price_usd": 1500.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-085-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 6000000,
+          "price_usd": 1500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-085-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 6000000,
+          "price_usd": 1500.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-085-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 6000000,
+          "price_usd": 1500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_086",
+      "sku": "MUZ-WG18-RNG-086",
+      "title": "White gold earrings AR1893",
+      "base_price_cop": 60000000,
+      "base_price_usd": 15000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-086-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 60000000,
+          "price_usd": 15000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-086-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 60000000,
+          "price_usd": 15000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-086-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 60000000,
+          "price_usd": 15000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_087",
+      "sku": "MUZ-WG18-RNG-087",
+      "title": "White gold earrings AR1989",
+      "base_price_cop": 9000000,
+      "base_price_usd": 2250.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-087-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 9000000,
+          "price_usd": 2250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-087-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 9000000,
+          "price_usd": 2250.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-087-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 9000000,
+          "price_usd": 2250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_092",
+      "sku": "MUZ-WG18-RNG-092",
+      "title": "White gold ring AN1342",
+      "base_price_cop": 2000000,
+      "base_price_usd": 500.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-092-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 2000000,
+          "price_usd": 500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-092-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 2000000,
+          "price_usd": 500.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-092-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 2000000,
+          "price_usd": 500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_093",
+      "sku": "MUZ-WG18-RNG-093",
+      "title": "White gold ring AN1375",
+      "base_price_cop": 3000000,
+      "base_price_usd": 750.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-093-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 3000000,
+          "price_usd": 750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-093-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 3000000,
+          "price_usd": 750.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-093-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 3000000,
+          "price_usd": 750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_094",
+      "sku": "MUZ-WG18-RNG-094",
+      "title": "White gold ring AN1513",
+      "base_price_cop": 7000000,
+      "base_price_usd": 1750.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-094-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 7000000,
+          "price_usd": 1750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-094-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 7000000,
+          "price_usd": 1750.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-094-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 7000000,
+          "price_usd": 1750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_095",
+      "sku": "MUZ-WG18-RNG-095",
+      "title": "White gold ring AN1584",
+      "base_price_cop": 16000000,
+      "base_price_usd": 4000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-095-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 16000000,
+          "price_usd": 4000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-095-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 16000000,
+          "price_usd": 4000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-095-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 16000000,
+          "price_usd": 4000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_096",
+      "sku": "MUZ-WG18-RNG-096",
+      "title": "White gold ring AN1585",
+      "base_price_cop": 23000000,
+      "base_price_usd": 5750.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-096-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 23000000,
+          "price_usd": 5750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-096-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 23000000,
+          "price_usd": 5750.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-096-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 23000000,
+          "price_usd": 5750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_097",
+      "sku": "MUZ-WG18-RNG-097",
+      "title": "White gold ring AN1593",
+      "base_price_cop": 38000000,
+      "base_price_usd": 9500.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-097-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 38000000,
+          "price_usd": 9500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-097-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 38000000,
+          "price_usd": 9500.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-097-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 38000000,
+          "price_usd": 9500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_098",
+      "sku": "MUZ-WG18-RNG-098",
+      "title": "White gold ring AN1633",
+      "base_price_cop": 7500000,
+      "base_price_usd": 1875.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-098-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 7500000,
+          "price_usd": 1875.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-098-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 7500000,
+          "price_usd": 1875.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-098-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 7500000,
+          "price_usd": 1875.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_099",
+      "sku": "MUZ-WG18-RNG-099",
+      "title": "White gold ring AN1675",
+      "base_price_cop": 19000000,
+      "base_price_usd": 4750.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-099-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 19000000,
+          "price_usd": 4750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-099-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 19000000,
+          "price_usd": 4750.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-099-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 19000000,
+          "price_usd": 4750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_100",
+      "sku": "MUZ-WG18-RNG-100",
+      "title": "White gold ring AN1677",
+      "base_price_cop": 100000000,
+      "base_price_usd": 25000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-100-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 100000000,
+          "price_usd": 25000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-100-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 100000000,
+          "price_usd": 25000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-100-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 100000000,
+          "price_usd": 25000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_101",
+      "sku": "MUZ-WG18-RNG-101",
+      "title": "White gold ring AN938 OB",
+      "base_price_cop": 9000000,
+      "base_price_usd": 2250.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-101-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 9000000,
+          "price_usd": 2250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-101-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 9000000,
+          "price_usd": 2250.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-101-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 9000000,
+          "price_usd": 2250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_102",
+      "sku": "MUZ-WG18-RNG-102",
+      "title": "White gold ring AN947",
+      "base_price_cop": 10000000,
+      "base_price_usd": 2500.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-102-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 10000000,
+          "price_usd": 2500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-102-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 10000000,
+          "price_usd": 2500.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-102-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 10000000,
+          "price_usd": 2500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_103",
+      "sku": "MUZ-WG18-RNG-103",
+      "title": "White gold ring with Moissanite AN1673",
+      "base_price_cop": 9000000,
+      "base_price_usd": 2250.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-WG18-RNG-103-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 9000000,
+          "price_usd": 2250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-103-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 9000000,
+          "price_usd": 2250.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-WG18-RNG-103-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 9000000,
+          "price_usd": 2250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_106",
+      "sku": "MUZ-YG18-RNG-106",
+      "title": "Yellow gold earrings AR12 GH",
+      "base_price_cop": 5000000,
+      "base_price_usd": 1250.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-106-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 5000000,
+          "price_usd": 1250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-106-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 5000000,
+          "price_usd": 1250.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-106-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 5000000,
+          "price_usd": 1250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_107",
+      "sku": "MUZ-YG18-RNG-107",
+      "title": "Yellow gold earrings AR2698",
+      "base_price_cop": 8000000,
+      "base_price_usd": 2000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-107-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 8000000,
+          "price_usd": 2000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-107-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 8000000,
+          "price_usd": 2000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-107-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 8000000,
+          "price_usd": 2000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_108",
+      "sku": "MUZ-YG18-RNG-108",
+      "title": "Yellow gold earrings AR2717",
+      "base_price_cop": 10000000,
+      "base_price_usd": 2500.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-108-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 10000000,
+          "price_usd": 2500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-108-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 10000000,
+          "price_usd": 2500.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-108-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 10000000,
+          "price_usd": 2500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_109",
+      "sku": "MUZ-YG18-RNG-109",
+      "title": "Yellow gold earrings AR2766",
+      "base_price_cop": 17000000,
+      "base_price_usd": 4250.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-109-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 17000000,
+          "price_usd": 4250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-109-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 17000000,
+          "price_usd": 4250.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-109-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 17000000,
+          "price_usd": 4250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_110",
+      "sku": "MUZ-YG18-RNG-110",
+      "title": "Yellow gold earrings AR2890",
+      "base_price_cop": 19000000,
+      "base_price_usd": 4750.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-110-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 19000000,
+          "price_usd": 4750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-110-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 19000000,
+          "price_usd": 4750.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-110-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 19000000,
+          "price_usd": 4750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_111",
+      "sku": "MUZ-YG18-RNG-111",
+      "title": "Yellow gold earrings DJ2414",
+      "base_price_cop": 16000000,
+      "base_price_usd": 4000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-111-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 16000000,
+          "price_usd": 4000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-111-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 16000000,
+          "price_usd": 4000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-111-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 16000000,
+          "price_usd": 4000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_119",
+      "sku": "MUZ-YG18-RNG-119",
+      "title": "Yellow gold ring AN 2071",
+      "base_price_cop": 3200000,
+      "base_price_usd": 800.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-119-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 3200000,
+          "price_usd": 800.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-119-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 3200000,
+          "price_usd": 800.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-119-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 3200000,
+          "price_usd": 800.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_120",
+      "sku": "MUZ-YG18-RNG-120",
+      "title": "Yellow gold ring AN1361",
+      "base_price_cop": 26000000,
+      "base_price_usd": 6500.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-120-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 26000000,
+          "price_usd": 6500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-120-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 26000000,
+          "price_usd": 6500.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-120-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 26000000,
+          "price_usd": 6500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_121",
+      "sku": "MUZ-YG18-RNG-121",
+      "title": "Yellow gold ring AN1626",
+      "base_price_cop": 18000000,
+      "base_price_usd": 4500.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-121-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 18000000,
+          "price_usd": 4500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-121-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 18000000,
+          "price_usd": 4500.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-121-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 18000000,
+          "price_usd": 4500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_122",
+      "sku": "MUZ-YG18-RNG-122",
+      "title": "Yellow gold ring AN1756",
+      "base_price_cop": 13000000,
+      "base_price_usd": 3250.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-122-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 13000000,
+          "price_usd": 3250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-122-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 13000000,
+          "price_usd": 3250.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-122-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 13000000,
+          "price_usd": 3250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_123",
+      "sku": "MUZ-YG18-RNG-123",
+      "title": "Yellow gold ring AN1890",
+      "base_price_cop": 15000000,
+      "base_price_usd": 3750.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-123-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 15000000,
+          "price_usd": 3750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-123-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 15000000,
+          "price_usd": 3750.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-123-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 15000000,
+          "price_usd": 3750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_124",
+      "sku": "MUZ-YG18-RNG-124",
+      "title": "Yellow gold ring AN1924",
+      "base_price_cop": 75000000,
+      "base_price_usd": 18750.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-124-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 75000000,
+          "price_usd": 18750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-124-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 75000000,
+          "price_usd": 18750.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-124-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 75000000,
+          "price_usd": 18750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_125",
+      "sku": "MUZ-YG18-RNG-125",
+      "title": "Yellow gold ring AN1956",
+      "base_price_cop": 2800000,
+      "base_price_usd": 700.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-125-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 2800000,
+          "price_usd": 700.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-125-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 2800000,
+          "price_usd": 700.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-125-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 2800000,
+          "price_usd": 700.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_126",
+      "sku": "MUZ-YG18-RNG-126",
+      "title": "Yellow gold ring AN1958",
+      "base_price_cop": 11000000,
+      "base_price_usd": 2750.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-126-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 11000000,
+          "price_usd": 2750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-126-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 11000000,
+          "price_usd": 2750.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-126-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 11000000,
+          "price_usd": 2750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_127",
+      "sku": "MUZ-YG18-RNG-127",
+      "title": "Yellow gold ring AN2072",
+      "base_price_cop": 3200000,
+      "base_price_usd": 800.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-127-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 3200000,
+          "price_usd": 800.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-127-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 3200000,
+          "price_usd": 800.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-127-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 3200000,
+          "price_usd": 800.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_128",
+      "sku": "MUZ-YG18-RNG-128",
+      "title": "Yellow gold ring AN2169",
+      "base_price_cop": 18000000,
+      "base_price_usd": 4500.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-128-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 18000000,
+          "price_usd": 4500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-128-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 18000000,
+          "price_usd": 4500.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-128-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 18000000,
+          "price_usd": 4500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_129",
+      "sku": "MUZ-YG18-RNG-129",
+      "title": "Yellow gold ring AN2177",
+      "base_price_cop": 50000000,
+      "base_price_usd": 12500.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-129-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 50000000,
+          "price_usd": 12500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-129-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 50000000,
+          "price_usd": 12500.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-129-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 50000000,
+          "price_usd": 12500.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_130",
+      "sku": "MUZ-YG18-RNG-130",
+      "title": "Yellow gold ring AN2183",
+      "base_price_cop": 35000000,
+      "base_price_usd": 8750.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-130-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 35000000,
+          "price_usd": 8750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-130-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 35000000,
+          "price_usd": 8750.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-130-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 35000000,
+          "price_usd": 8750.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_131",
+      "sku": "MUZ-YG18-RNG-131",
+      "title": "Yellow gold ring AN2184",
+      "base_price_cop": 24000000,
+      "base_price_usd": 6000.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-131-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 24000000,
+          "price_usd": 6000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-131-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 24000000,
+          "price_usd": 6000.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-131-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 24000000,
+          "price_usd": 6000.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_132",
+      "sku": "MUZ-YG18-RNG-132",
+      "title": "Yellow gold ring AN2216",
+      "base_price_cop": 29000000,
+      "base_price_usd": 7250.0,
+      "variants": [
+        {
+          "variant_sku": "MUZ-YG18-RNG-132-SZ6",
+          "variant_type": "size",
+          "variant_value": "6",
+          "price_cop": 29000000,
+          "price_usd": 7250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-132-SZ7",
+          "variant_type": "size",
+          "variant_value": "7",
+          "price_cop": 29000000,
+          "price_usd": 7250.0,
+          "stock": 1,
+          "weight_adjustment": 0
+        },
+        {
+          "variant_sku": "MUZ-YG18-RNG-132-SZ8",
+          "variant_type": "size",
+          "variant_value": "8",
+          "price_cop": 29000000,
+          "price_usd": 7250.0,
+          "stock": 0,
+          "weight_adjustment": 0
+        }
+      ]
+    }
+  ],
+  "material_variant_examples": [
+    {
+      "product_id": "MUZEM_001",
+      "sku": "MUZ-YG18-RNG-001",
+      "title": "18k Yellow Gold Ring with Colombian Natural Emerald and Diamonds AN2243",
+      "variant_type": "material",
+      "options": [
+        {
+          "material": "18k Yellow Gold",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "sku_suffix": "YEL"
+        },
+        {
+          "material": "White Gold",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "sku_suffix": "WHI"
+        },
+        {
+          "material": "Silver",
+          "price_cop": 3000000,
+          "price_usd": 750.0,
+          "sku_suffix": "SIL"
+        },
+        {
+          "material": "Platinum",
+          "price_cop": 18000000,
+          "price_usd": 4500.0,
+          "sku_suffix": "PLA"
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_002",
+      "sku": "MUZ-YG18-RNG-002",
+      "title": "18k Yellow Gold Ring with Natural Colombian Emerald Drop Cut M-AN08",
+      "variant_type": "material",
+      "options": [
+        {
+          "material": "18k Yellow Gold",
+          "price_cop": 80000000,
+          "price_usd": 20000.0,
+          "sku_suffix": "YEL"
+        },
+        {
+          "material": "White Gold",
+          "price_cop": 80000000,
+          "price_usd": 20000.0,
+          "sku_suffix": "WHI"
+        },
+        {
+          "material": "Silver",
+          "price_cop": 20000000,
+          "price_usd": 5000.0,
+          "sku_suffix": "SIL"
+        },
+        {
+          "material": "Platinum",
+          "price_cop": 120000000,
+          "price_usd": 30000.0,
+          "sku_suffix": "PLA"
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_003",
+      "sku": "MUZ-YG18-RNG-003",
+      "title": "18k Yellow Gold Ring with Natural Colombian Emerald Oval Size M-AN38",
+      "variant_type": "material",
+      "options": [
+        {
+          "material": "18k Yellow Gold",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "sku_suffix": "YEL"
+        },
+        {
+          "material": "White Gold",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "sku_suffix": "WHI"
+        },
+        {
+          "material": "Silver",
+          "price_cop": 3000000,
+          "price_usd": 750.0,
+          "sku_suffix": "SIL"
+        },
+        {
+          "material": "Platinum",
+          "price_cop": 18000000,
+          "price_usd": 4500.0,
+          "sku_suffix": "PLA"
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_004",
+      "sku": "MUZ-YG18-RNG-004",
+      "title": "18k Yellow Gold Ring with Natural Colombian Emerald Rectangular Cut AN2458",
+      "variant_type": "material",
+      "options": [
+        {
+          "material": "18k Yellow Gold",
+          "price_cop": 8000000,
+          "price_usd": 2000.0,
+          "sku_suffix": "YEL"
+        },
+        {
+          "material": "White Gold",
+          "price_cop": 8000000,
+          "price_usd": 2000.0,
+          "sku_suffix": "WHI"
+        },
+        {
+          "material": "Silver",
+          "price_cop": 2000000,
+          "price_usd": 500.0,
+          "sku_suffix": "SIL"
+        },
+        {
+          "material": "Platinum",
+          "price_cop": 12000000,
+          "price_usd": 3000.0,
+          "sku_suffix": "PLA"
+        }
+      ]
+    },
+    {
+      "product_id": "MUZEM_005",
+      "sku": "MUZ-SV925-ERR-005",
+      "title": "Aretes en plata con Esmeralda Natural Tallada AR001",
+      "variant_type": "material",
+      "options": [
+        {
+          "material": "18k Yellow Gold",
+          "price_cop": 2000000,
+          "price_usd": 500.0,
+          "sku_suffix": "YEL"
+        },
+        {
+          "material": "White Gold",
+          "price_cop": 2000000,
+          "price_usd": 500.0,
+          "sku_suffix": "WHI"
+        },
+        {
+          "material": "Silver",
+          "price_cop": 500000,
+          "price_usd": 125.0,
+          "sku_suffix": "SIL"
+        },
+        {
+          "material": "Platinum",
+          "price_cop": 3000000,
+          "price_usd": 750.0,
+          "sku_suffix": "PLA"
+        }
+      ]
+    }
+  ]
+}

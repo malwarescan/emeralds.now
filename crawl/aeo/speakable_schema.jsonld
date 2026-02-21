@@ -1,0 +1,179 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://muzem.co/en/",
+      "name": "Muzem Emeralds - Certified Colombian Emerald Jewelry",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "#hero-headline",
+          "#hero-description",
+          "#about-summary"
+        ]
+      },
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Muzem Emeralds",
+        "description": "Fourth-generation family jewelry business specializing in certified Colombian emeralds since the 1940s.",
+        "url": "https://muzem.co",
+        "logo": "https://muzem.co/wp-content/uploads/logo.png",
+        "sameAs": [
+          "https://www.instagram.com/muzem_emeralds/"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bogotá",
+          "addressCountry": "CO"
+        }
+      }
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://muzem.co/en/speakable/homepage",
+      "cssSelector": [
+        ".voice-hero-title",
+        ".voice-hero-subtitle",
+        ".voice-about-text",
+        ".voice-product-highlight",
+        ".voice-cta-text"
+      ],
+      "xpath": [
+        "/html/body/main/section[1]/h1",
+        "/html/body/main/section[1]/p",
+        "/html/body/main/section[2]/div/p"
+      ]
+    },
+    {
+      "@type": "Article",
+      "headline": "About Colombian Emeralds - The World's Finest Gemstones",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".article-intro",
+          ".key-facts",
+          ".conclusion-text"
+        ]
+      },
+      "articleBody": "Colombian emeralds are prized worldwide for their exceptional quality and vivid green color. Mined in the Andes Mountains for centuries, these gemstones form under unique geological conditions that create their distinctive characteristics. Muzem Emeralds sources directly from Colombian mines, ensuring authenticity and the highest quality standards."
+    },
+    {
+      "@type": "Product",
+      "name": "18k Yellow Gold Ring with Colombian Natural Emerald",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".product-name",
+          ".product-short-description",
+          ".key-features-list"
+        ]
+      },
+      "description": "Stunning 18k yellow gold ring featuring a certified natural Colombian emerald. This exquisite piece showcases the vibrant green color that makes Colombian emeralds the most sought-after gemstones in the world."
+    },
+    {
+      "@type": "FAQPage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".faq-question",
+          ".faq-answer-short"
+        ]
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are Colombian emeralds?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Colombian emeralds are the world's finest emeralds, mined in Colombia's Andes Mountains. They are prized for their exceptional clarity, vivid green color, and rarity."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to Choose an Emerald Ring",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".howto-intro",
+          ".step-title",
+          ".step-summary"
+        ]
+      },
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Set Your Budget",
+          "text": "Determine your budget range. Muzem emerald rings range from $800,000 COP to $80,000,000 COP."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://muzem.co/en/speakable/voice-queries",
+      "name": "Voice Search Optimized Content",
+      "description": "Content optimized for voice assistant queries about Muzem Emeralds",
+      "cssSelector": [
+        "[data-voice='optimized']",
+        ".voice-answer",
+        ".quick-fact"
+      ],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://muzem.co/en/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "name": "Emerald Jewelry Glossary",
+      "description": "Key terms for voice search optimization",
+      "hasDefinedTerm": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Colombian Emerald",
+          "description": "An emerald mined in Colombia, considered the highest quality emeralds in the world due to their color and clarity."
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Jardin",
+          "description": "The natural inclusions found in emeralds that resemble a garden pattern, indicating authenticity."
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "18k Gold",
+          "description": "Gold that is 75% pure gold mixed with other metals for durability, ideal for fine jewelry."
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Emerald Cut",
+          "description": "A rectangular step-cut that maximizes the emerald's color and minimizes waste during cutting."
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Carat",
+          "description": "A unit of weight for gemstones, where one carat equals 200 milligrams."
+        }
+      ]
+    },
+    {
+      "@type": "SpecialAnnouncement",
+      "name": "Muzem Emeralds - Voice Search Information",
+      "text": "Muzem Emeralds is a fourth-generation Colombian emerald jewelry company with showrooms in Bogotá and Medellín. We offer certified natural Colombian emeralds in rings, earrings, pendants, and bracelets. Prices range from $800,000 to $80,000,000 Colombian pesos. We ship internationally and provide certificates of authenticity with every purchase.",
+      "datePosted": "2026-02-22",
+      "expires": "2027-02-22",
+      "category": "https://schema.org/SpecialAnnouncement",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".announcement-text"
+        ]
+      }
+    }
+  ]
+}

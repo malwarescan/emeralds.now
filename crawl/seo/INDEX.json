@@ -1,0 +1,130 @@
+{
+  "project": "Muzem Emeralds SEO Schema",
+  "generated_at": "2026-02-22T02:07:12.999999",
+  "business": {
+    "name": "Muzem Emeralds",
+    "type": "4th Generation Colombian Emerald Jewelry",
+    "locations": [
+      "Bogotá, Colombia",
+      "Medellín, Colombia"
+    ],
+    "website": "https://muzem.co",
+    "currency": "COP"
+  },
+  "statistics": {
+    "total_products": 132,
+    "by_jewelry_type": {
+      "Ring": 115,
+      "Earrings": 1,
+      "Bracelet": 14,
+      "Other": 2
+    },
+    "by_material": {
+      "18k Yellow Gold": 59,
+      "Silver": 38,
+      "White Gold": 31,
+      "Other": 3,
+      "Platinum": 1
+    },
+    "by_category": {
+      "Yellow Gold": 22,
+      "Silver": 41,
+      "": 60,
+      "White Gold": 8,
+      "Platinum": 1
+    },
+    "price_range": {
+      "min": 600000,
+      "max": 92000000,
+      "avg": 12305151.52
+    }
+  },
+  "files": {
+    "product_schemas.jsonld": {
+      "description": "JSON-LD Product schemas for all 132 products",
+      "format": "JSON-LD",
+      "count": 132,
+      "path": "/mnt/okcomputer/output/seo/product_schemas.jsonld",
+      "size_bytes": 608987
+    },
+    "product_schemas_individual.json": {
+      "description": "Individual product schemas with product IDs",
+      "format": "JSON",
+      "count": 132,
+      "path": "/mnt/okcomputer/output/seo/product_schemas_individual.json",
+      "size_bytes": 621819
+    },
+    "sitemap.xml": {
+      "description": "XML Sitemap with all product URLs",
+      "format": "XML",
+      "url_count": 138,
+      "path": "/mnt/okcomputer/output/seo/sitemap.xml",
+      "size_bytes": 66563
+    },
+    "meta_tags.csv": {
+      "description": "Meta tags for all products in CSV format",
+      "format": "CSV",
+      "count": 132,
+      "path": "/mnt/okcomputer/output/seo/meta_tags.csv",
+      "size_bytes": 137716
+    },
+    "meta_tags.json": {
+      "description": "Meta tags for all products in JSON format",
+      "format": "JSON",
+      "count": 132,
+      "path": "/mnt/okcomputer/output/seo/meta_tags.json",
+      "size_bytes": 209474
+    },
+    "meta_tags_html_examples.html": {
+      "description": "HTML-ready meta tag templates (5 examples)",
+      "format": "HTML",
+      "count": 5,
+      "path": "/mnt/okcomputer/output/seo/meta_tags_html_examples.html",
+      "size_bytes": 14127
+    },
+    "breadcrumb_schemas.json": {
+      "description": "Breadcrumb schemas for all products",
+      "format": "JSON",
+      "count": 132,
+      "path": "/mnt/okcomputer/output/seo/breadcrumb_schemas.json",
+      "size_bytes": 113203
+    },
+    "organization_schemas.jsonld": {
+      "description": "Organization, WebSite, and LocalBusiness schemas",
+      "format": "JSON-LD",
+      "path": "/mnt/okcomputer/output/seo/organization_schemas.jsonld",
+      "size_bytes": 4594
+    },
+    "seo_summary.md": {
+      "description": "Comprehensive SEO summary documentation",
+      "format": "Markdown",
+      "path": "/mnt/okcomputer/output/seo/seo_summary.md",
+      "size_bytes": 5021
+    }
+  },
+  "schemas_included": [
+    "Schema.org/Product",
+    "Schema.org/Offer",
+    "Schema.org/AggregateRating",
+    "Schema.org/Review",
+    "Schema.org/Brand",
+    "Schema.org/Organization",
+    "Schema.org/BreadcrumbList",
+    "Schema.org/WebSite",
+    "Schema.org/LocalBusiness (JewelryStore)",
+    "Schema.org/ImageObject"
+  ],
+  "meta_tags_included": [
+    "Standard: title, description, keywords, author, robots",
+    "Open Graph: og:title, og:type, og:url, og:image, og:description, og:site_name, og:locale, og:price:amount, og:price:currency, og:availability, og:brand",
+    "Twitter Card: twitter:card, twitter:site, twitter:creator, twitter:title, twitter:description, twitter:image, twitter:label1/data1, twitter:label2/data2"
+  ],
+  "implementation": {
+    "step_1": "Add JSON-LD product schema to each product page head",
+    "step_2": "Add meta tags to HTML head section",
+    "step_3": "Add breadcrumb schema for navigation",
+    "step_4": "Add organization schema to homepage",
+    "step_5": "Submit sitemap.xml to Google Search Console and Bing Webmaster Tools",
+    "step_6": "Validate using Google Rich Results Test and Schema.org Validator"
+  }
+}

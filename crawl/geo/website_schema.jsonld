@@ -1,0 +1,122 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://muzem.co/#website",
+      "url": "https://muzem.co",
+      "name": "Muzem Emeralds",
+      "alternateName": "Muzem - Colombian Emeralds",
+      "description": "4th Generation Family Jewelry Business specializing in Certified Colombian Emeralds. Shop 18k gold rings, earrings, pendants, and bracelets.",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://muzem.co/#organization"
+      },
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://muzem.co/#organization"
+      },
+      "inLanguage": [
+        "es",
+        "en"
+      ],
+      "isPartOf": {
+        "@type": "Organization",
+        "@id": "https://muzem.co/#organization"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://muzem.co/en/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string",
+          "actionOption": "Search products on Muzem Emeralds"
+        },
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://muzem.co/en/shop/?filter_emerald={search_term_string}"
+          },
+          "query-input": "required name=search_term_string",
+          "actionOption": "Filter emeralds by type"
+        }
+      ],
+      "about": {
+        "@type": "Organization",
+        "@id": "https://muzem.co/#organization"
+      },
+      "keywords": [
+        "Colombian Emeralds",
+        "Emerald Jewelry",
+        "18k Gold Rings",
+        "Certified Emeralds",
+        "Family Jewelry Business",
+        "Bogotá Jewelry",
+        "Medellín Jewelry"
+      ],
+      "datePublished": "2015-01-01",
+      "dateModified": "2026-02-22"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://muzem.co/#homepage",
+      "url": "https://muzem.co",
+      "name": "Muzem Emeralds | 4th Generation Family Jewelry - Certified Colombian Emeralds",
+      "description": "Discover Muzem Emeralds - a 4th generation family jewelry business. Shop certified Colombian emeralds: rings, earrings, pendants, and bracelets in 18k gold.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://muzem.co/#website"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://muzem.co/#organization"
+      },
+      "inLanguage": [
+        "es",
+        "en"
+      ],
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://muzem.co/#breadcrumb"
+      },
+      "mainEntity": {
+        "@type": "Organization",
+        "@id": "https://muzem.co/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://muzem.co/wp-content/uploads/muzem-hero-image.jpg"
+      },
+      "datePublished": "2015-01-01",
+      "dateModified": "2026-02-22"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://muzem.co/en/shop/#shoppage",
+      "url": "https://muzem.co/en/shop/",
+      "name": "Shop | Muzem Emeralds - Colombian Emerald Jewelry",
+      "description": "Browse our collection of certified Colombian emerald jewelry. Rings, earrings, pendants, and bracelets in 18k yellow gold, white gold, and silver.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://muzem.co/#website"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://muzem.co/#organization"
+      },
+      "inLanguage": [
+        "es",
+        "en"
+      ],
+      "mainEntity": {
+        "@type": "ItemList",
+        "@id": "https://muzem.co/en/shop/#collection"
+      },
+      "datePublished": "2015-01-01",
+      "dateModified": "2026-02-22"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HowTo",
+      "name": "How to Choose the Perfect Emerald Ring",
+      "description": "A comprehensive guide to selecting the ideal emerald ring based on quality, budget, style, and personal preferences.",
+      "image": "https://muzem.co/wp-content/uploads/2026/02/IMG_1565.jpg",
+      "totalTime": "PT30M",
+      "estimatedCost": {
+        "@type": "MonetaryAmount",
+        "currency": "COP",
+        "value": "4000000-80000000"
+      },
+      "supply": [
+        {
+          "@type": "HowToSupply",
+          "name": "Budget estimate"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Ring size measurement"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Style preferences"
+        }
+      ],
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Ring sizer"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Magnifying glass"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Natural daylight"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Set Your Budget",
+          "text": "Determine your budget range. Muzem emerald rings range from $800,000 COP for silver pieces to $80,000,000 COP for premium 18k gold designs. Most quality pieces fall between $4,000,000 and $25,000,000 COP.",
+          "url": "https://muzem.co/en/how-to-choose-emerald-ring/#step1",
+          "image": "https://muzem.co/wp-content/uploads/2026/02/IMG_1612.jpg"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Understand Emerald Quality Factors",
+          "text": "Learn the 4Cs of emeralds: Color (vivid green is best), Clarity (natural inclusions are expected), Cut (proportions affect brilliance), and Carat weight. For emeralds, color is the most important factor.",
+          "url": "https://muzem.co/en/how-to-choose-emerald-ring/#step2"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Choose Your Metal",
+          "text": "Select from 18k yellow gold (classic warm look), 18k white gold (modern and bright), platinum (most durable), or sterling silver (affordable option). Consider skin tone and existing jewelry when choosing.",
+          "url": "https://muzem.co/en/how-to-choose-emerald-ring/#step3"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Select Emerald Shape and Size",
+          "text": "Popular cuts include oval, rectangular (emerald cut), round, and teardrop. Consider finger size and personal style. Larger emeralds show color better but cost more.",
+          "url": "https://muzem.co/en/how-to-choose-emerald-ring/#step4"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Verify Certification",
+          "text": "Ensure your emerald comes with a certificate from a recognized gemological laboratory. Certification verifies authenticity, origin, treatments, and quality characteristics.",
+          "url": "https://muzem.co/en/how-to-choose-emerald-ring/#step5"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Get the Right Size",
+          "text": "Measure your finger at the end of the day. Use a ring sizer or visit a jeweler. Consider that wide bands may require a larger size. Muzem offers complimentary resizing within 30 days.",
+          "url": "https://muzem.co/en/how-to-choose-emerald-ring/#step6"
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to Care for Your Emerald Jewelry",
+      "description": "Learn proper cleaning, storage, and maintenance techniques to keep your emerald jewelry beautiful for generations.",
+      "image": "https://muzem.co/wp-content/uploads/2025/06/DJ2416-4.jpg",
+      "totalTime": "PT15M",
+      "supply": [
+        {
+          "@type": "HowToSupply",
+          "name": "Mild dish soap"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Warm water"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Soft lint-free cloth"
+        }
+      ],
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Soft-bristled brush"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Small bowl"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Jewelry box with compartments"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Daily Care Tips",
+          "text": "Put emerald jewelry on last when dressing and remove first when undressing. Avoid contact with cosmetics, perfumes, and hairsprays. Remove before swimming, exercising, or doing household chores.",
+          "url": "https://muzem.co/en/emerald-care-guide/#step1"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Clean with Soapy Water",
+          "text": "Mix mild dish soap with warm water. Soak jewelry for 5-10 minutes. Gently brush with soft-bristled brush, paying attention to settings. Rinse thoroughly and pat dry with soft cloth.",
+          "url": "https://muzem.co/en/emerald-care-guide/#step2"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Proper Storage",
+          "text": "Store each piece separately in soft pouches or lined jewelry box compartments. Keep away from direct sunlight and heat sources. Use anti-tarnish strips for silver pieces.",
+          "url": "https://muzem.co/en/emerald-care-guide/#step3"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "What to Avoid",
+          "text": "Never use ultrasonic cleaners, steam cleaners, or harsh chemicals on emeralds. Avoid extreme temperature changes. Don't expose to prolonged direct sunlight which can fade color.",
+          "url": "https://muzem.co/en/emerald-care-guide/#step4"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Professional Maintenance",
+          "text": "Have your emerald jewelry professionally cleaned and inspected annually. Check prongs and settings regularly. Muzem offers free cleaning and inspection for all pieces purchased from us.",
+          "url": "https://muzem.co/en/emerald-care-guide/#step5"
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to Verify Colombian Emerald Authenticity",
+      "description": "Step-by-step guide to checking if your emerald is genuine Colombian with proper certification and visual inspection techniques.",
+      "image": "https://muzem.co/wp-content/uploads/2025/05/AR001-1.jpg",
+      "totalTime": "PT20M",
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "10x jeweler's loupe"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Flashlight"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "UV light (optional)"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Check for Natural Inclusions",
+          "text": "Using a 10x loupe, examine the emerald for natural inclusions called 'jardin' (garden). These look like moss, feathers, or fingerprints. Synthetic emeralds have bubble-like or swirl patterns instead.",
+          "url": "https://muzem.co/en/verify-authenticity/#step1"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Observe Color Characteristics",
+          "text": "Colombian emeralds typically show a pure, vivid green with possible slight blue undertones. The color should be evenly distributed. Hold the stone under natural daylight for best observation.",
+          "url": "https://muzem.co/en/verify-authenticity/#step2"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Test for Double Refraction",
+          "text": "Look through the emerald at a line or edge. Natural emeralds show double lines due to birefringence. Rotate the stone - the doubling effect should remain consistent.",
+          "url": "https://muzem.co/en/verify-authenticity/#step3"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Feel the Temperature",
+          "text": "Genuine emeralds feel cool to the touch and stay cool longer than glass imitations. Place the stone against your cheek or lips - it should feel noticeably cool.",
+          "url": "https://muzem.co/en/verify-authenticity/#step4"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Verify Certification",
+          "text": "Check that your emerald comes with a certificate from a recognized lab like CDTEC, GIA, or independent Colombian gemologists. Verify the certificate number online if possible. The certificate should detail origin, treatments, and characteristics.",
+          "url": "https://muzem.co/en/verify-authenticity/#step5"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Professional Appraisal",
+          "text": "For high-value emeralds, get a second opinion from an independent gemologist. They can confirm origin, identify treatments, and provide market valuation. This is especially important for investment pieces.",
+          "url": "https://muzem.co/en/verify-authenticity/#step6"
+        }
+      ]
+    }
+  ]
+}

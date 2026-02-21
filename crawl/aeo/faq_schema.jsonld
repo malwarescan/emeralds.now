@@ -1,0 +1,273 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Muzem Emeralds - Frequently Asked Questions",
+  "description": "Find answers to common questions about Colombian emeralds, jewelry care, certification, shipping, and more from Muzem Emeralds.",
+  "url": "https://muzem.co/en/faq/",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are Colombian emeralds?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Colombian emeralds are the world's finest emeralds, mined in Colombia's Andes Mountains. They are prized for their exceptional clarity, vivid green color, and rarity. Muzem Emeralds sources directly from Colombian mines, offering certified natural emeralds of the highest quality.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-1"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to identify genuine emeralds?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Genuine emeralds have natural inclusions called 'jardin' that look like garden patterns under magnification. They feel cool to the touch, have a specific gravity of 2.72, and show double refraction. Muzem provides certified emeralds with authenticity guarantees and laboratory certificates.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-2"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the price range for emerald rings at Muzem?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Muzem emerald rings range from $800,000 COP for silver pieces with small emeralds to $80,000,000 COP for premium 18k gold rings with large, high-quality Colombian emeralds. Our collection includes options for every budget, with most rings priced between $4,000,000 and $25,000,000 COP.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-3"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to care for emerald jewelry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Clean emerald jewelry with mild soapy water and a soft brush. Avoid ultrasonic cleaners, harsh chemicals, and extreme heat. Store separately to prevent scratching. Have professional cleaning and inspection annually. Emeralds are relatively soft (7.5-8 Mohs), so remove during physical activities.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-4"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Muzem ship internationally?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Muzem Emeralds ships worldwide with secure, insured delivery. We use trusted international couriers like FedEx and DHL. Shipping costs vary by destination. All international orders include proper documentation and customs clearance assistance. Free shipping available on orders over $50,000,000 COP.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-5"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are Muzem emeralds certified?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, all Muzem emeralds come with authenticity certificates from recognized gemological laboratories. Our certifications verify the emerald's origin, natural status, treatments (if any), and quality characteristics. We provide certificates from Colombian and international labs including CDTEC and independent gemologists.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-6"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What gold types are available at Muzem?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Muzem offers jewelry in 18k yellow gold, 18k white gold, and platinum. Our 18k gold is 75% pure gold alloyed for durability. We also have sterling silver options for more affordable pieces. Each piece is stamped with purity marks and comes with material certification.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-7"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Muzem offer custom jewelry design?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Muzem specializes in custom emerald jewelry design. Our master jewelers work with you to create unique pieces including engagement rings, anniversary gifts, and family heirlooms. Custom design consultations are available at our Bogotá and Medellín showrooms or virtually. Timeline typically 2-4 weeks.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-8"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Muzem's return policy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Muzem offers a 15-day return policy for unworn items in original condition with all certificates and packaging. Custom-designed pieces are non-returnable. Refunds processed within 5-7 business days. Exchange options available within 30 days. All returns must include original documentation.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-9"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What payment methods does Muzem accept?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Muzem accepts credit/debit cards (Visa, Mastercard, Amex), bank transfers, PayPal, and cash payments at our showrooms. We offer installment plans through Colombian banking partners. All online transactions are secured with SSL encryption. Financing options available for purchases over $10,000,000 COP.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-10"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I verify my emerald's authenticity at home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Simple home tests include: checking for natural inclusions with a magnifying glass, feeling for coolness to the touch, and observing double images of back facets. However, professional certification is the only reliable method. Muzem provides certified emeralds with laboratory documentation.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-11"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes Colombian emeralds the best?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Colombian emeralds are considered the finest due to their unique geological formation in the Andes Mountains. They typically have fewer inclusions, more vivid green color, and better clarity than emeralds from other regions. The Muzo, Chivor, and Coscuez mines produce the world's most prized emeralds.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-12"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between natural and synthetic emeralds?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Natural emeralds form over millions of years in the earth and contain unique inclusions. Synthetic emeralds are lab-created with identical chemical composition but perfect clarity and lower value. Natural emeralds are significantly more valuable. Muzem sells only certified natural Colombian emeralds.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-13"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should I store my emerald jewelry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Store emerald jewelry in a soft cloth pouch or lined jewelry box, separate from harder gemstones like diamonds. Keep away from direct sunlight, heat sources, and chemicals. Use anti-tarnish strips for silver pieces. Store necklaces flat to prevent chain tangling.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-14"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Muzem offer jewelry repair services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Muzem provides comprehensive jewelry repair and maintenance services including resizing, stone tightening, prong repair, polishing, and re-rhodium plating. Repairs are performed by our master jewelers. Warranty covers manufacturing defects. Free cleaning and inspection available for all Muzem pieces.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-15"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the 4C grading for emeralds?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Emeralds are graded by Color (vivid green is best), Clarity (fewer inclusions are preferred), Cut (proportions and symmetry), and Carat weight. Unlike diamonds, color is the most important factor for emeralds. Muzem provides detailed grading information with each certified emerald.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-16"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are Muzem's emeralds ethically sourced?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Muzem is committed to ethical sourcing. We work directly with licensed Colombian mines that follow responsible mining practices. Our supply chain ensures fair wages for miners and minimal environmental impact. All emeralds are conflict-free and legally exported with proper documentation.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-17"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best occasion to gift emerald jewelry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Emeralds are perfect for May birthdays (birthstone), 20th and 35th wedding anniversaries, engagements, and any special celebration. They symbolize love, rebirth, and prosperity. Muzem offers gift wrapping, personalized messages, and occasion-specific packaging for all purchases.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-18"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I choose the right emerald ring size?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Measure your finger at the end of the day when it's largest. Use our free ring sizer tool or visit our showrooms for professional sizing. Consider wider bands may need larger sizes. Muzem offers one complimentary resizing within 30 days of purchase for most ring styles.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-19"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Muzem offer wholesale or bulk pricing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Muzem offers wholesale pricing for qualified retailers, jewelry designers, and bulk purchasers. Minimum order quantities apply. Contact our wholesale department for pricing catalogs and terms. We also provide consignment options for select partners. All wholesale emeralds include certification.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-20"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Muzem's warranty policy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Muzem provides a lifetime warranty against manufacturing defects on all jewelry. This covers craftsmanship issues but not normal wear, damage from misuse, or loss. We recommend annual inspections to maintain warranty coverage. Extended protection plans available for additional coverage.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-21"]
+        }
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long has Muzem been in business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Muzem Emeralds is a fourth-generation family business with over 80 years of experience in Colombian emeralds. Founded in the 1940s, we've built our reputation on quality, authenticity, and exceptional craftsmanship. Our legacy continues with showrooms in Bogotá and Medellín.",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".faq-answer-22"]
+        }
+      }
+    }
+  ]
+}

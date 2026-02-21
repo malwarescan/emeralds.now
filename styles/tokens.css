@@ -1,0 +1,111 @@
+/**
+ * Emeralds.now — Editorial Showroom Tokens
+ * No pure #000 backgrounds. No pure #fff text. Gold = hairlines only.
+ */
+
+:root {
+  /* ——— Color (spec aliases + existing) ——— */
+  --abyss: #041E15;
+  --color-abyssal: #041E15;
+  --color-abyssal-rgb: 4, 30, 21;
+
+  --paper: #F7F3EA;
+  --color-paper: #F7F3EA;
+  --color-paper-rgb: 247, 243, 234;
+
+  --gold: #C5A059;
+  --color-gold: #C5A059;
+  --color-gold-rgb: 197, 160, 89;
+  /* Gold at 20–35% for borders (never big fill) */
+  --color-gold-muted: rgba(197, 160, 89, 0.35);
+  --color-gold-subtle: rgba(197, 160, 89, 0.22);
+
+  --ink: #0B0F0E;
+  --color-ink: #0B0F0E;
+  --color-ink-rgb: 11, 15, 14;
+
+  --veil: rgba(247, 243, 234, 0.08);
+  --color-mist: rgba(247, 243, 234, 0.08);
+  --color-mist-strong: rgba(247, 243, 234, 0.12);
+
+  /* Hero text readability gradient (bottom heavier) */
+  --fog: rgba(4, 30, 21, 0.55);
+  --fog-gradient: linear-gradient(to bottom, transparent 0%, rgba(4, 30, 21, 0.3) 40%, rgba(4, 30, 21, 0.7) 100%);
+
+  /* Deep chamber vignette */
+  --bg-vignette: radial-gradient(ellipse 100% 100% at 50% 50%, #062a1e 0%, #041E15 30%, #02120d 70%, #010805 100%);
+  --bg-vignette-fixed: radial-gradient(ellipse 120% 120% at 50% 50%, #062a1e 0%, #041E15 28%, #02120d 65%, #010805 100%);
+
+  /* ——— Accessibility (text on backgrounds) ——— */
+  /* Abyssal bg: use Paper or Gold for text */
+  --text-on-abyssal: var(--color-paper);
+  --text-on-abyssal-muted: rgba(247, 243, 234, 0.78);
+  /* Paper bg: use Ink */
+  --text-on-paper: var(--color-ink);
+  --text-on-paper-muted: rgba(11, 15, 14, 0.72);
+
+  /* ——— Shadows (soft museum lighting, low opacity) ——— */
+  --shadow-soft: 0 4px 24px rgba(4, 30, 21, 0.12);
+  --shadow-soft-lg: 0 8px 40px rgba(4, 30, 21, 0.08);
+  --shadow-glow-gold: 0 0 24px rgba(197, 160, 89, 0.15);
+  --shadow-glow-gold-hover: 0 0 32px rgba(197, 160, 89, 0.22);
+
+  /* ——— Hairlines (1px gold 20–35% opacity) ——— */
+  --hairline: 1px;
+  --hairline-gold: 1px solid var(--color-gold-subtle);
+  --hairline-gold-strong: 1px solid var(--color-gold-muted);
+  --hairline-paper: 1px solid rgba(247, 243, 234, 0.15);
+
+  /* ——— Spacing (golden-ratio–aware, uneven whitespace) ——— */
+  --space-3xs: 0.25rem;   /* 4px */
+  --space-2xs: 0.5rem;    /* 8px */
+  --space-xs: 0.75rem;    /* 12px */
+  --space-sm: 1rem;      /* 16px */
+  --space-md: 1.618rem;   /* ~26px — golden */
+  --space-lg: 2.618rem;   /* ~42px */
+  --space-xl: 4.236rem;   /* ~68px */
+  --space-2xl: 6.854rem;  /* ~110px */
+  --space-3xl: 11.09rem;  /* ~177px — deliberate void */
+  --rail: 1.618rem;       /* museum rail from edge */
+  --rail-lg: 4.236rem;
+
+  /* Section rhythm: editorial showroom */
+  --section-padding-y-desktop: clamp(6rem, 10vw, 10rem);   /* 96–160px */
+  --section-padding-y-mobile: clamp(3.5rem, 8vw, 6rem);   /* 56–96px */
+  --gallery-max: 1320px;
+  --gallery-gutter: 4%;
+
+  /* ——— Radii (luxury: sharp, max 2px) ——— */
+  --radius-sm: 0px;
+  --radius-md: 2px;
+  --radius-lg: 2px;
+  --radius-max: 2px;
+
+  /* ——— Blur ——— */
+  --blur-sm: 8px;
+  --blur-md: 16px;
+  --blur-lg: 24px;
+  --blur-placeholder: 40px;
+
+  /* ——— Motion ——— */
+  --ease-soft-decel: cubic-bezier(0.33, 1, 0.68, 1);
+  --ease-velvet: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --duration-fast: 0.25s;
+  --duration-normal: 0.45s;
+  --duration-slow: 0.65s;
+  --duration-ceremony: 0.85s;
+  --stagger-micro: 50ms;
+  --stagger-reveal: 80ms;
+}
+
+/* Reduced motion: respect user preference */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fast: 0.01ms;
+    --duration-normal: 0.01ms;
+    --duration-slow: 0.01ms;
+    --duration-ceremony: 0.01ms;
+    --stagger-micro: 0ms;
+    --stagger-reveal: 0ms;
+  }
+}

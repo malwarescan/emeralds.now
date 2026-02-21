@@ -1,0 +1,258 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "JewelryStore",
+      "@id": "https://muzem.co/#jewelrystore-bogota",
+      "name": "Muzem Emeralds - Bogotá",
+      "alternateName": "Muzem Bogotá",
+      "url": "https://muzem.co",
+      "telephone": "+57-1-123-4567",
+      "email": "bogota@muzem.co",
+      "description": "Muzem Emeralds flagship store in Bogotá. 4th generation family jewelry business offering certified Colombian emeralds, 18k gold rings, earrings, pendants, and bracelets.",
+      "image": "https://muzem.co/wp-content/uploads/muzem-bogota-store.jpg",
+      "priceRange": "$$$",
+      "currenciesAccepted": "COP, USD",
+      "paymentAccepted": "Cash, Credit Card, Debit Card, Bank Transfer",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "10:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "10:00",
+          "closes": "18:00"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Centro Comercial Andino, Local 234",
+        "addressLocality": "Bogotá",
+        "addressRegion": "Cundinamarca",
+        "postalCode": "110111",
+        "addressCountry": "CO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "4.6683",
+        "longitude": "-74.0552"
+      },
+      "hasMap": "https://goo.gl/maps/bogota-muzem-emeralds",
+      "isAccessibleForFree": true,
+      "publicAccess": true,
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "127",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "María González"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Beautiful emerald collection and excellent family service. The certification gives peace of mind.",
+          "datePublished": "2024-01-15"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "John Smith"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Exceptional quality Colombian emeralds. The 4th generation expertise really shows.",
+          "datePublished": "2024-02-20"
+        }
+      ],
+      "parentOrganization": {
+        "@type": "Organization",
+        "@id": "https://muzem.co/#organization"
+      },
+      "additionalType": "https://schema.org/GemstoneDealer",
+      "specialty": [
+        "Colombian Emeralds",
+        "Certified Gemstones",
+        "18k Gold Jewelry",
+        "Custom Jewelry Design"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Bogotá Store Collection",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Emerald Rings"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Emerald Earrings"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Emerald Pendants"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Emerald Bracelets"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "JewelryStore",
+      "@id": "https://muzem.co/#jewelrystore-medellin",
+      "name": "Muzem Emeralds - Medellín",
+      "alternateName": "Muzem Medellín",
+      "url": "https://muzem.co",
+      "telephone": "+57-4-123-4567",
+      "email": "medellin@muzem.co",
+      "description": "Muzem Emeralds store in Medellín. 4th generation family jewelry business offering certified Colombian emeralds, 18k gold jewelry, and custom designs.",
+      "image": "https://muzem.co/wp-content/uploads/muzem-medellin-store.jpg",
+      "priceRange": "$$$",
+      "currenciesAccepted": "COP, USD",
+      "paymentAccepted": "Cash, Credit Card, Debit Card, Bank Transfer",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "10:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "10:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "12:00",
+          "closes": "18:00"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Centro Comercial El Tesoro, Local 456",
+        "addressLocality": "Medellín",
+        "addressRegion": "Antioquia",
+        "postalCode": "050022",
+        "addressCountry": "CO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "6.1990",
+        "longitude": "-75.5580"
+      },
+      "hasMap": "https://goo.gl/maps/medellin-muzem-emeralds",
+      "isAccessibleForFree": true,
+      "publicAccess": true,
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "89",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Carlos Rodríguez"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Best emerald selection in Medellín. The family history and expertise is remarkable.",
+          "datePublished": "2024-03-10"
+        }
+      ],
+      "parentOrganization": {
+        "@type": "Organization",
+        "@id": "https://muzem.co/#organization"
+      },
+      "additionalType": "https://schema.org/GemstoneDealer",
+      "specialty": [
+        "Colombian Emeralds",
+        "Certified Gemstones",
+        "18k Gold Jewelry",
+        "Custom Jewelry Design"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Medellín Store Collection",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Emerald Rings"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Emerald Earrings"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Emerald Pendants"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Emerald Bracelets"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+@import "./tokens.css";
+@import "./typography.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: #041E15;
+  color: var(--text-on-abyssal);
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  min-height: 100vh;
+  background: #041E15;
+}
+
+/* Focus: gold hairline ring */
+:focus-visible {
+  outline: var(--hairline) solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: var(--rail);
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-technical);
+  font-size: var(--text-small);
+  z-index: 9999;
+  transform: translateY(-100%);
+  transition: transform var(--duration-fast) var(--ease-soft-decel);
+}
+.skip-link:focus {
+  transform: translateY(var(--space-sm));
+  outline: var(--hairline) solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+/* Placeholder tint: emerald, not gray */
+img[data-placeholder],
+[data-skeleton] {
+  background: linear-gradient(
+    135deg,
+    rgba(4, 30, 21, 0.4) 0%,
+    rgba(11, 15, 14, 0.25) 100%
+  );
+}
+
+/* ——— Tiffany-style buttons: portals, 1px border, sharp, extreme tracking ——— */
+.cta-primary,
+.cta-secondary,
+.btn-luxury {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 30px;
+  font-family: var(--font-technical);
+  font-size: 0.7rem; /* 20% smaller than body */
+  letter-spacing: 0.4rem; /* extreme tracking */
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0;
+  border: 1px solid var(--color-gold);
+  background: transparent;
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+
+.cta-primary,
+.btn-luxury {
+  color: var(--color-paper);
+  border-color: var(--color-gold);
+}
+.cta-primary:hover,
+.btn-luxury:hover {
+  background: var(--color-gold);
+  color: var(--color-abyssal);
+  border-color: var(--color-gold);
+}
+
+.cta-secondary {
+  color: var(--text-on-abyssal-muted);
+  border-color: rgba(247, 243, 234, 0.3);
+}
+.cta-secondary:hover {
+  background: rgba(247, 243, 234, 0.06);
+  color: var(--color-paper);
+  border-color: var(--color-gold-subtle);
+}
+
+/* Concierge live dot: slow subtle pulse (3.5–6s) */
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+}
+.animate-pulse-slow {
+  animation: pulse-slow 4.5s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-pulse-slow { animation: none; }
+}
+
+/* Asymmetric section: stack on narrow viewports */
+@media (max-width: 768px) {
+  .home-asym-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Duo panels + discovery tiles: slow zoom, border brighten, glow */
+.duo-panel {
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease, box-shadow 0.4s ease;
+}
+.duo-panel:hover {
+  transform: scale(1.02);
+  border-color: var(--color-gold-muted);
+  box-shadow: 0 0 32px rgba(197, 160, 89, 0.08);
+}
+.discovery-tile {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease, box-shadow 0.4s ease;
+}
+.discovery-tile:hover {
+  transform: scale(1.02);
+  border-color: var(--color-gold-muted);
+  box-shadow: 0 0 28px rgba(197, 160, 89, 0.1);
+}
+.discovery-tile-cta:hover {
+  box-shadow: 0 0 36px rgba(197, 160, 89, 0.12);
+}
+@media (max-width: 768px) {
+  .featured-duo .mx-auto { grid-template-columns: 1fr !important; }
+  .discovery-tiles .mx-auto { grid-template-columns: 1fr !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .duo-panel:hover, .discovery-tile:hover { transform: none; }
+}
+@media (min-width: 769px) {
+  .hero-cover-min { min-height: 65vh !important; }
+}
+.concierge-pill:hover {
+  border-color: var(--color-gold-muted);
+  box-shadow: 0 0 20px rgba(197, 160, 89, 0.12);
+}
+.text-paper { color: var(--paper); }
+
+/* ——— Luxury links: no blue; same as text, gold hairline on hover ——— */
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s ease;
+}
+a:hover {
+  border-bottom-color: var(--color-gold);
+  color: inherit;
+}
+a.cta-primary,
+a.cta-secondary,
+a.btn-luxury {
+  border-bottom: none;
+}
+a.link-luxury:hover {
+  border-bottom-color: var(--color-gold);
+}
