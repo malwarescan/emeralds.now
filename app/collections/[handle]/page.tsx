@@ -1,137 +1,100 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getCollectionByHandle, getAllCollectionHandles } from "@/lib/shopify/client";
-import { getCrawlCollectionByHandle, getCrawlCollectionHandles, crawlProductImageUrl } from "@/lib/crawl/products";
-import { GoldHairline } from "@/components/ui/GoldHairline";
-import { Placard } from "@/components/ui/Placard";
-import { collectionPageSchema, organization, webSite, webPage, breadcrumbList } from "@/lib/schema/emit";
+import Link from "next/link";
+import { getCategoryTiles } from "@/lib/catalog/categories";
+import { getProductsByCollectionHandle } from "@/lib/catalog/catalog";
+import { formatPrice } from "@/lib/format/price";
+import { getShortTitle } from "@/lib/format/titles";
+import ProductCard from "@/components/product/ProductCard";
 
-type Props = { params: Promise<{ handle: string }> };
+const COLLECTION_HANDLES = ["rings", "earrings", "pendants", "bracelets", "chains", "one-of-one"];
 
-export async function generateStaticParams() {
-  const shopifyHandles = await getAllCollectionHandles();
-  const crawlHandles = getCrawlCollectionHandles();
-  const handles = shopifyHandles.length > 0 ? shopifyHandles : crawlHandles;
-  if (!handles.length) return [];
-  return handles.map((handle) => ({ handle }));
+const FALLBACK_TILES: Record<string, { title: string; description: string }> = {
+  rings: { title: "Rings", description: "Certified Colombian emerald rings in gold, silver, and platinum." },
+  earrings: { title: "Earrings", description: "Earrings in gold and silver with natural and carved emeralds." },
+  pendants: { title: "Pendants", description: "Pendants and necklaces featuring Colombian emeralds." },
+  bracelets: { title: "Bracelets", description: "Emerald bracelets in gold and silver." },
+  chains: { title: "Chains", description: "Gold and silver chains to pair with your pieces." },
+  "one-of-one": { title: "One-of-One", description: "Unique pieces, each one singular in the world." },
+};
+
+function specLine(p: { material?: string; emerald_type?: string; primary_category?: string }): string {
+  const parts = [p.material, p.emerald_type].filter(Boolean);
+  return parts.length ? parts.join(" · ").toUpperCase() : p.primary_category?.toUpperCase() ?? "";
 }
 
-export default async function CollectionPage({ params }: Props) {
+export function generateStaticParams() {
+  return COLLECTION_HANDLES.map((handle) => ({ handle }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ handle: string }> }) {
   const { handle } = await params;
-  let collection = await getCollectionByHandle(handle);
-  const crawlCollection = getCrawlCollectionByHandle(handle);
+  const handleLower = handle?.toLowerCase() ?? "";
+  const tile = FALLBACK_TILES[handleLower];
+  const title = tile?.title ?? handle ?? "Collection";
+  const description = tile?.description ?? `Explore ${title} — certified Colombian emerald jewelry.`;
+  return {
+    title: `${title} | Muzem Emeralds`,
+    description,
+  };
+}
 
-  if (!collection && !crawlCollection) notFound();
-  const isCrawl = !collection && !!crawlCollection;
+export default async function CollectionPage({ params }: { params: Promise<{ handle: string }> }) {
+  const { handle } = await params;
+  const handleLower = handle?.toLowerCase() ?? "";
+  if (!COLLECTION_HANDLES.includes(handleLower)) notFound();
 
-  const base = process.env.NEXT_PUBLIC_SITE_URL ?? "https://emeralds.now";
-  const title = isCrawl ? crawlCollection!.title : collection!.title;
-  const productsForSchema = isCrawl
-    ? crawlCollection!.products
-    : (collection!.products?.nodes ?? []).map((p: { handle: string; title: string }) => ({ handle: p.handle, title: p.title }));
-  const breadcrumb = breadcrumbList([
-    { name: "Home", path: "/" },
-    { name: "Collections", path: "/collections" },
-    { name: title, path: `/collections/${handle}` },
-  ]);
-  const itemList = (isCrawl ? crawlCollection!.products : productsForSchema).map(
-    (p: { handle: string; title: string }, i: number) => ({
-      "@type": "ListItem" as const,
-      position: i + 1,
-      url: `${base}/product/${p.handle}`,
-      name: p.title,
-    })
-  );
-  const collectionSchema = collectionPageSchema(`${base}/collections/${handle}`, title, itemList);
+  let tile: { title: string; description: string } | null = null;
+  try {
+    const tiles = getCategoryTiles();
+    tile = tiles.find((t) => t.slug === handleLower) ?? null;
+  } catch {
+    // categories.json missing or unreadable
+  }
+  if (!tile) tile = FALLBACK_TILES[handleLower] ?? null;
+  if (!tile) notFound();
 
-  const schemaGraph = [
-    organization(),
-    webSite(false),
-    webPage(`/collections/${handle}`, title, (isCrawl ? crawlCollection!.description : collection!.description) ?? undefined, `${base}/collections/${handle}#breadcrumb`),
-    breadcrumb,
-    collectionSchema,
-  ];
+  const products = getProductsByCollectionHandle(handleLower);
 
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({ "@context": "https://schema.org", "@graph": schemaGraph }),
-        }}
-      />
-
-      <article
-        style={{
-          paddingLeft: "var(--rail-lg)",
-          paddingRight: "var(--rail-lg)",
-          paddingTop: "var(--space-2xl)",
-          paddingBottom: "var(--space-3xl)",
-        }}
-      >
-        <nav aria-label="Breadcrumb" className="text-technical text-caption mb-8">
-          <Link href="/" className="opacity-78 hover:opacity-100">Home</Link>
-          <span className="mx-2 opacity-50">/</span>
-          <Link href="/collections" className="opacity-78 hover:opacity-100">Collections</Link>
-          <span className="mx-2 opacity-50">/</span>
-          <span>{title}</span>
-        </nav>
-
-        <h1 className="text-display-1 mb-4">{title}</h1>
-        {!isCrawl && collection!.description && (
-          <p className="text-body opacity-90 max-w-2xl mb-12">{collection!.description}</p>
-        )}
-        {isCrawl && crawlCollection!.description && (
-          <p className="text-body opacity-90 max-w-2xl mb-12">{crawlCollection!.description}</p>
-        )}
-        <GoldHairline className="mb-12" />
-
-        <div
-          className="grid gap-8"
-          style={{ gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))" }}
+    <main className="min-h-full w-full bg-[var(--abyssal)] py-6 sm:py-10">
+      <div className="rail">
+        <Link
+          href="/"
+          className="mb-6 inline-block text-[0.75rem] uppercase tracking-widest text-[#f5f0e8]/70 hover:text-[#f5f0e8]"
         >
-          {isCrawl
-            ? crawlCollection!.products.map((product) => (
-                <Link key={product.handle} href={`/product/${product.handle}`} className="block group">
-                  <Placard
-                    title={product.title}
-                    caption={product.currency && product.price != null ? `${product.currency} ${product.price}` : undefined}
-                  >
-                    {product.image ? (
-                      <img
-                        src={crawlProductImageUrl(product.image)}
-                        alt={product.title}
-                        width={400}
-                        height={400}
-                        className="w-full aspect-square object-cover"
-                        loading="lazy"
-                      />
-                    ) : (
-                      <div className="aspect-square bg-[var(--color-mist)]" aria-hidden />
-                    )}
-                  </Placard>
-                </Link>
-              ))
-            : (collection!.products?.nodes ?? []).map((product) => (
-                <Link key={product.handle} href={`/product/${product.handle}`} className="block group">
-                  <Placard title={product.title} caption={product.priceRange?.minVariantPrice ? `${product.priceRange.minVariantPrice.currencyCode} ${product.priceRange.minVariantPrice.amount}` : undefined}>
-                    {product.featuredImage?.url ? (
-                      <img
-                        src={product.featuredImage.url}
-                        alt={product.featuredImage.altText ?? product.title}
-                        width={400}
-                        height={400}
-                        className="w-full aspect-square object-cover"
-                        loading="lazy"
-                      />
-                    ) : (
-                      <div className="aspect-square bg-[var(--color-mist)]" aria-hidden />
-                    )}
-                  </Placard>
-                </Link>
-              ))}
-        </div>
-      </article>
-    </>
+          ← Home
+        </Link>
+        <h1 className="font-serif text-2xl font-normal tracking-wide text-[#f5f0e8] sm:text-3xl">
+          {tile.title}
+        </h1>
+        <p className="mt-2 max-w-lg text-sm text-[#f5f0e8]/80">
+          {tile.description}
+        </p>
+        {products.length === 0 ? (
+          <p className="mt-10 text-[#f5f0e8]/70">No pieces in this collection yet.</p>
+        ) : (
+          <ul className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {products.map((p) => (
+              <li key={p.product_id}>
+                <ProductCard product={p} sizes="(max-width: 430px) 100vw, 50vw, 33vw">
+                  <p className="product-card-title mt-3">{getShortTitle(p.title)}</p>
+                  <p className="mt-1.5 text-[0.8125rem] font-normal text-[var(--cream)]/90">
+                    {formatPrice(p.sale_price_usd, p.currency_usd)}
+                  </p>
+                  {specLine(p) && (
+                    <p className="mt-1 text-[0.65rem] font-medium uppercase tracking-widest text-[var(--cream)]/60">
+                      {specLine(p)}
+                    </p>
+                  )}
+                  <span className="view-piece mt-3 inline-block text-[0.6875rem] uppercase tracking-[0.18em] text-[var(--gold-muted)] hover:text-[var(--gold-hairline)]">
+                    View piece
+                  </span>
+                </ProductCard>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </main>
   );
 }

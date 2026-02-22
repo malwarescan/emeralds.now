@@ -34,3 +34,6 @@ next-env.d.ts
 
 # Standalone (generated at build)
 .next/standalone
+
+# Do NOT ignore asset directories (required for build + Railway)
+# public/images/hero/* and public/images/products/* must be committed
