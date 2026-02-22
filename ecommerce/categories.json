@@ -1,0 +1,267 @@
+{
+  "brand": "Muzem Emeralds",
+  "description": "4th Generation Family Jewelry - Certified Colombian Emeralds",
+  "generated_at": "2026-02-22T02:06:02.470134",
+  "taxonomy": {
+    "Jewelry": {
+      "id": "jewelry",
+      "slug": "jewelry",
+      "description": "Fine Colombian Emerald Jewelry",
+      "subcategories": {
+        "Rings": {
+          "id": "rings",
+          "slug": "rings",
+          "description": "Emerald Rings in Gold, Silver, and Platinum",
+          "subcategories": {
+            "Gold Rings": {
+              "id": "gold-rings",
+              "slug": "gold-rings",
+              "description": "18k Yellow Gold and White Gold Emerald Rings",
+              "subcategories": {
+                "Yellow Gold Rings": {
+                  "id": "yellow-gold-rings",
+                  "slug": "yellow-gold-rings",
+                  "description": "18k Yellow Gold Emerald Rings"
+                },
+                "White Gold Rings": {
+                  "id": "white-gold-rings",
+                  "slug": "white-gold-rings",
+                  "description": "18k White Gold Emerald Rings"
+                }
+              }
+            },
+            "Silver Rings": {
+              "id": "silver-rings",
+              "slug": "silver-rings",
+              "description": "Sterling Silver Emerald Rings"
+            },
+            "Platinum Rings": {
+              "id": "platinum-rings",
+              "slug": "platinum-rings",
+              "description": "Platinum Emerald Rings"
+            }
+          }
+        },
+        "Earrings": {
+          "id": "earrings",
+          "slug": "earrings",
+          "description": "Emerald Earrings in Gold and Silver",
+          "subcategories": {
+            "Gold Earrings": {
+              "id": "gold-earrings",
+              "slug": "gold-earrings",
+              "description": "18k Gold Emerald Earrings"
+            },
+            "Silver Earrings": {
+              "id": "silver-earrings",
+              "slug": "silver-earrings",
+              "description": "Sterling Silver Emerald Earrings"
+            }
+          }
+        },
+        "Pendants": {
+          "id": "pendants",
+          "slug": "pendants",
+          "description": "Emerald Pendants and Necklaces",
+          "subcategories": {
+            "Gold Pendants": {
+              "id": "gold-pendants",
+              "slug": "gold-pendants",
+              "description": "18k Gold Emerald Pendants"
+            },
+            "Silver Pendants": {
+              "id": "silver-pendants",
+              "slug": "silver-pendants",
+              "description": "Sterling Silver Emerald Pendants"
+            }
+          }
+        },
+        "Bracelets": {
+          "id": "bracelets",
+          "slug": "bracelets",
+          "description": "Emerald Bracelets in Gold and Silver",
+          "subcategories": {
+            "Gold Bracelets": {
+              "id": "gold-bracelets",
+              "slug": "gold-bracelets",
+              "description": "18k Gold Emerald Bracelets"
+            },
+            "Silver Bracelets": {
+              "id": "silver-bracelets",
+              "slug": "silver-bracelets",
+              "description": "Sterling Silver Emerald Bracelets"
+            }
+          }
+        },
+        "Chains": {
+          "id": "chains",
+          "slug": "chains",
+          "description": "Gold and Silver Chains",
+          "subcategories": {
+            "Gold Chains": {
+              "id": "gold-chains",
+              "slug": "gold-chains",
+              "description": "18k Gold Chains"
+            },
+            "Silver Chains": {
+              "id": "silver-chains",
+              "slug": "silver-chains",
+              "description": "Sterling Silver Chains"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tags": {
+    "colombian-emerald": {
+      "id": "colombian-emerald",
+      "slug": "colombian-emerald",
+      "description": "Certified Colombian Emeralds"
+    },
+    "18k-gold": {
+      "id": "18k-gold",
+      "slug": "18k-gold",
+      "description": "18 Karat Gold Jewelry"
+    },
+    "natural-stone": {
+      "id": "natural-stone",
+      "slug": "natural-stone",
+      "description": "100% Natural Emeralds"
+    },
+    "certified": {
+      "id": "certified",
+      "slug": "certified",
+      "description": "Certified Gemstones"
+    },
+    "handcrafted": {
+      "id": "handcrafted",
+      "slug": "handcrafted",
+      "description": "Handcrafted by Artisans"
+    },
+    "family-legacy": {
+      "id": "family-legacy",
+      "slug": "family-legacy",
+      "description": "4th Generation Family Business"
+    },
+    "bogota": {
+      "id": "bogota",
+      "slug": "bogota",
+      "description": "Bogotá, Colombia"
+    },
+    "medellin": {
+      "id": "medellin",
+      "slug": "medellin",
+      "description": "Medellín, Colombia"
+    },
+    "diamonds": {
+      "id": "diamonds",
+      "slug": "diamonds",
+      "description": "Diamond Accents"
+    },
+    "moissanite": {
+      "id": "moissanite",
+      "slug": "moissanite",
+      "description": "Moissanite Accents"
+    }
+  },
+  "emerald_types": [
+    {
+      "name": "Natural",
+      "slug": "natural",
+      "description": "Natural Colombian Emeralds"
+    },
+    {
+      "name": "Carved",
+      "slug": "carved",
+      "description": "Hand-carved Emeralds"
+    },
+    {
+      "name": "Trapiche",
+      "slug": "trapiche",
+      "description": "Rare Trapiche Emeralds"
+    },
+    {
+      "name": "Rough",
+      "slug": "rough",
+      "description": "Natural Rough Emeralds"
+    },
+    {
+      "name": "Drop Cut",
+      "slug": "drop-cut",
+      "description": "Teardrop Cut Emeralds"
+    },
+    {
+      "name": "Oval",
+      "slug": "oval",
+      "description": "Oval Cut Emeralds"
+    },
+    {
+      "name": "Round",
+      "slug": "round",
+      "description": "Round Cut Emeralds"
+    },
+    {
+      "name": "Rectangular",
+      "slug": "rectangular",
+      "description": "Rectangular Cut Emeralds"
+    },
+    {
+      "name": "Square",
+      "slug": "square",
+      "description": "Square Cut Emeralds"
+    },
+    {
+      "name": "Marquise",
+      "slug": "marquise",
+      "description": "Marquise Cut Emeralds"
+    },
+    {
+      "name": "Heart",
+      "slug": "heart",
+      "description": "Heart Shaped Emeralds"
+    },
+    {
+      "name": "Cushion",
+      "slug": "cushion",
+      "description": "Cushion Cut Emeralds"
+    },
+    {
+      "name": "Emerald Cut",
+      "slug": "emerald-cut",
+      "description": "Classic Emerald Cut"
+    },
+    {
+      "name": "Cabochon",
+      "slug": "cabochon",
+      "description": "Cabochon Cut Emeralds"
+    },
+    {
+      "name": "Trillion",
+      "slug": "trillion",
+      "description": "Trillion Cut Emeralds"
+    }
+  ],
+  "materials": [
+    {
+      "name": "18k Yellow Gold",
+      "slug": "18k-yellow-gold",
+      "purity": "75%"
+    },
+    {
+      "name": "White Gold",
+      "slug": "white-gold",
+      "purity": "75%"
+    },
+    {
+      "name": "Silver",
+      "slug": "silver",
+      "purity": "92.5%"
+    },
+    {
+      "name": "Platinum",
+      "slug": "platinum",
+      "purity": "95%"
+    }
+  ]
+}
