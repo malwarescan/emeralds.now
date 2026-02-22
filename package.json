@@ -4,33 +4,27 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run validate:assets && next build",
     "start": "next start",
     "lint": "next lint",
-    "schema:validate": "tsx lib/schema/validate.ts",
-    "crawl:product-data": "node scripts/generate-product-data.mjs",
-    "crawl:copy-images": "cp -n crawl/raw_images/* public/images/products/ 2>/dev/null || true"
+    "validate:assets": "node scripts/validate-assets.js",
+    "copy-assets": "node scripts/copy-assets.js",
+    "generate:focal-points": "node scripts/generate-focal-points.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.47.0",
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.24",
     "gsap": "^3.12.5",
-    "lenis": "^1.1.14",
-    "@react-three/fiber": "^8.17.0",
-    "@react-three/drei": "^9.117.0",
-    "@react-three/postprocessing": "^2.16.0",
-    "three": "^0.170.0",
-    "next": "^16.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "next": "14.2.18",
+    "postcss": "^8.5.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.6.3"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "@types/three": "^0.170.0",
-    "typescript": "^5.7.0",
-    "eslint": "^9.0.0",
-    "eslint-config-next": "^16.0.0",
-    "tsx": "^4.19.0"
+    "sharp": "^0.34.5"
   }
 }
