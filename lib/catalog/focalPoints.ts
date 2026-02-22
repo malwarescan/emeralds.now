@@ -33,6 +33,7 @@ function loadFocalPoints(): Record<string, FocalPoint> {
 type TinySubjectReportEntry = {
   seo_filename?: string;
   subject_ratio?: number;
+  tiny_ratio?: number;
 };
 
 function loadTinySubjectMap(): Map<string, number> {
