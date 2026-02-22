@@ -1,0 +1,778 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mobile-first: 320 → 390 → 430, then desktop. Abyssal green + gold hairlines. */
+:root {
+  --abyssal: #0d1f17;
+  --abyssal-light: #132a1f;
+  --gold: #c9a227;
+  --gold-muted: rgba(201, 162, 39, 0.28);
+  --gold-hairline: rgba(201, 162, 39, 0.35);
+  --gold-hairline-strong: rgba(201, 162, 39, 0.5);
+  --cream: #f5f0e8;
+  --white: #fff;
+  --max-rail: 72rem;
+  --hero-vh: 75vh;
+  --tile-min-h: 160px;
+  --tile-max-h: 220px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-serif, Georgia, "Times New Roman", serif);
+  background: var(--abyssal);
+  color: var(--cream);
+  min-height: 100vh;
+}
+
+/* Reduce motion — only animations/transitions, don't break layout or opacity */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+  /* Shorten transitions but don't remove (avoids broken UI) */
+  *:not(.gallery-mount-frame):not(.product-card-outer),
+  *::before,
+  *::after {
+    transition-duration: 0.08s !important;
+  }
+}
+
+/* Tap feedback: scale 0.98 */
+.tap-scale {
+  transition: transform 0.12s ease-out;
+}
+.tap-scale:active {
+  transform: scale(0.98);
+}
+
+/* Utility: hairline gold border */
+.hairline {
+  border: 1px solid var(--gold-hairline);
+}
+
+/* Max-width rail */
+.rail {
+  width: 100%;
+  max-width: var(--max-rail);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 430px) {
+  .rail {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .rail {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Hero H1: mobile-first, no awkward wrap at 320px */
+.hero-title {
+  font-size: 1.95rem;
+  letter-spacing: 0.22em;
+}
+@media (min-width: 390px) {
+  .hero-title {
+    font-size: 2.25rem;
+    letter-spacing: 0.28em;
+  }
+}
+@media (min-width: 640px) {
+  .hero-title {
+    font-size: 2.75rem;
+    letter-spacing: 0.35em;
+  }
+}
+
+/* CTA seal in hero */
+.hero-cta {
+  border: 1px solid var(--gold-hairline-strong);
+  transition: transform 0.14s ease-out, border-color 0.22s ease;
+}
+.hero-cta:active {
+  transform: scale(0.98);
+  border-color: rgba(201, 162, 39, 0.72);
+}
+
+/* Hero bottom dissolve scrim: blends video/poster into abyss (no hard seam) */
+.hero-bottom-scrim {
+  height: 42%;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(13, 31, 23, 0.4) 25%,
+    rgba(13, 31, 23, 0.85) 60%,
+    var(--abyssal) 100%
+  );
+}
+@media (min-width: 640px) {
+  .hero-bottom-scrim {
+    height: 34%;
+  }
+}
+
+/* Next section top scrim: emerges from hero (cinematic dissolve) */
+.section-top-scrim {
+  height: 110px;
+  background: linear-gradient(
+    to bottom,
+    var(--abyssal) 0%,
+    rgba(13, 31, 23, 0.97) 20%,
+    rgba(13, 31, 23, 0.6) 55%,
+    transparent 100%
+  );
+}
+@media (min-width: 640px) {
+  .section-top-scrim {
+    height: 140px;
+  }
+}
+
+/* Butterfly Mark editorial interlude (between gateway and featured). */
+.butterfly-mark-wrap {
+  margin-top: clamp(28px, 8vw, 44px);
+  margin-bottom: clamp(28px, 8vw, 44px);
+}
+
+.butterfly-mark-shell {
+  min-height: 72vh;
+  max-height: 78vh;
+}
+
+@media (min-width: 1024px) {
+  .butterfly-mark-shell {
+    min-height: 68vh;
+    max-height: 76vh;
+  }
+}
+
+.butterfly-mark-veil {
+  background:
+    linear-gradient(
+      to top,
+      rgba(13, 31, 23, 0.9) 0%,
+      rgba(13, 31, 23, 0.46) 26%,
+      rgba(13, 31, 23, 0.1) 48%,
+      transparent 72%
+    ),
+    radial-gradient(
+      circle at 24% 74%,
+      rgba(13, 31, 23, 0.36) 0%,
+      transparent 50%
+    );
+}
+
+.butterfly-mark-cta {
+  transition: transform 0.14s ease-out, border-color 0.22s ease;
+}
+
+.butterfly-mark-cta:active {
+  transform: scale(0.98);
+  border-color: rgba(201, 162, 39, 0.66);
+}
+
+.butterfly-mark-divider {
+  width: 60%;
+  max-width: 18rem;
+  height: 1px;
+  background: rgba(201, 162, 39, 0.24);
+}
+
+/* Muzem dynasty provenance section */
+.muzem-proof-pill {
+  border-top: 1px solid rgba(201, 162, 39, 0.26);
+  padding-top: 0.7rem;
+}
+
+.muzem-timeline {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.muzem-timeline-item {
+  margin: 0;
+  padding-left: 0.65rem;
+  border-left: 1px solid rgba(201, 162, 39, 0.24);
+  font-size: 0.73rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: rgba(245, 240, 232, 0.7);
+}
+
+.muzem-dynasty-cta {
+  transition: transform 0.14s ease-out, border-color 0.22s ease;
+}
+
+.muzem-dynasty-cta:active {
+  transform: scale(0.98);
+  border-color: rgba(201, 162, 39, 0.66);
+}
+
+/* Lighter editorial mount variant for authority sections. */
+.gallery-mount-editorial {
+  border-color: rgba(201, 162, 39, 0.2);
+  padding: 9px;
+}
+
+.gallery-mount-editorial .gallery-mount-mat,
+.gallery-mount-editorial-mat {
+  background: linear-gradient(180deg, #d8cfbf 0%, #ebe4d8 100%);
+  padding: 9px;
+}
+
+.gallery-mount-editorial .gallery-mount-frame,
+.gallery-mount-editorial-frame {
+  border-radius: 5px;
+}
+
+/* Gallery Mount System: one presentation for all product images (cards, PDP).
+   Outer frame (abyssal + hairline gold) → inner mat (warm paper + gradient) → 4:5 image → vignette + glass. */
+:root {
+  --product-matte-top: #d6cfc4;
+  --product-matte-bottom: #e6dfd3;
+  --product-outer-padding-mobile: 12px;
+  --product-outer-padding-desktop: 16px;
+  --product-gold-border: rgba(201, 162, 39, 0.22);
+  --product-gold-border-hover: rgba(201, 162, 39, 0.42);
+}
+
+/* Card: tap image = loupe; tap content = navigate. Outer frame = abyssal + gold. */
+.product-card-outer {
+  background: var(--abyssal);
+  border: 1px solid var(--product-gold-border);
+  padding: var(--product-outer-padding-mobile);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  transition: border-color 0.4s ease;
+}
+@media (min-width: 640px) {
+  .product-card-outer {
+    padding: var(--product-outer-padding-desktop);
+  }
+}
+.product-card-wrapper:hover .product-card-outer {
+  border-color: var(--product-gold-border-hover);
+}
+
+.product-card-outer:active .gallery-mount-frame,
+.product-card-outer button:active .gallery-mount-frame {
+  transform: scale(0.99);
+}
+
+.services-item {
+  border-top: 1px solid rgba(201, 162, 39, 0.12);
+}
+.services-item:first-child {
+  border-top-width: 0;
+}
+
+.services-accordion-button {
+  width: 100%;
+  text-align: left;
+  transition: color 0.15s ease;
+}
+
+.services-accordion-chev {
+  font-size: 0.85rem;
+}
+
+.services-accordion-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.22s ease, padding 0.22s ease;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.services-accordion-panel.open {
+  max-height: 8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.services-accordion-panel ul {
+  margin: 0;
+  padding: 0;
+}
+
+.services-accordion-panel li {
+  text-wrap: pretty;
+  border-left: 1px solid rgba(201, 162, 39, 0.35);
+  padding-left: 0.75rem;
+  line-height: 1.35;
+  list-style: none;
+}
+
+/* Inner mat: warm paper, subtle vertical gradient (top a touch darker) */
+.gallery-mount-mat {
+  position: relative;
+  border-radius: 8px;
+  width: 100%;
+  padding: 8px;
+  overflow: hidden;
+  margin: 0;
+  background: linear-gradient(
+    to bottom,
+    var(--product-matte-top) 0%,
+    var(--product-matte-bottom) 100%
+  );
+}
+
+.gallery-mount-featured {
+  padding: 10px;
+  border-color: rgba(201, 162, 39, 0.28);
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 1px rgba(201, 162, 39, 0.12);
+  overflow: hidden;
+}
+
+.gallery-mount-featured .gallery-mount-mat {
+  background: linear-gradient(180deg, #d3c6b8 0%, #e3dccf 34%, #ede7dc 100%);
+  padding: 11px;
+  border-radius: 0;
+}
+
+@media (min-width: 430px) {
+  .gallery-mount-featured .gallery-mount-mat {
+    padding: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery-mount-featured .gallery-mount-mat {
+    padding: 14px;
+  }
+}
+
+.gallery-mount-featured .gallery-mount-frame {
+  border-radius: 6px;
+  width: 100%;
+  margin: 0;
+}
+
+.gallery-mount-featured .gallery-mount-img {
+  filter: brightness(0.97) contrast(1.03) saturate(0.95);
+}
+
+.gallery-mount-featured .gallery-mount-vignette {
+  background: radial-gradient(
+    ellipse 80% 70% at 50% 40%,
+    transparent 38%,
+    rgba(13, 31, 23, 0.11) 72%,
+    rgba(13, 31, 23, 0.14) 100%
+  );
+}
+
+/* Category gateway tiles */
+.category-section-divider {
+  width: 60%;
+  max-width: 18rem;
+  height: 1px;
+  background: rgba(201, 162, 39, 0.22);
+}
+
+.category-tile {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(201, 162, 39, 0.22);
+  border-radius: 10px;
+  background: linear-gradient(170deg, rgba(17, 39, 29, 0.6), rgba(13, 31, 23, 0.98));
+  padding: 0.9rem 1rem;
+  height: clamp(112px, 30vw, 128px);
+  transition: transform 0.12s ease-out, border-color 0.22s ease, background 0.22s ease;
+}
+
+.category-tile:active {
+  transform: scale(0.99);
+  border-color: rgba(201, 162, 39, 0.56);
+  opacity: 0.99;
+}
+
+.category-tile-atmosphere {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 18% 24%, rgba(255, 255, 255, 0.06), transparent 38%),
+    radial-gradient(circle at 80% 78%, rgba(201, 162, 39, 0.08), transparent 42%),
+    linear-gradient(to bottom, rgba(201, 162, 39, 0.07), transparent 56%);
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.category-tile-noise {
+  position: absolute;
+  inset: 0;
+  opacity: 0.015;
+  background-image:
+    radial-gradient(circle at 15% 15%, rgba(255, 255, 255, 0.22) 0.7px, transparent 0.7px),
+    radial-gradient(circle at 65% 35%, rgba(255, 255, 255, 0.12) 0.7px, transparent 0.7px),
+    radial-gradient(circle at 35% 70%, rgba(255, 255, 255, 0.2) 0.6px, transparent 0.6px);
+  background-size: 140px 140px, 178px 178px, 206px 206px;
+  mix-blend-mode: soft-light;
+  pointer-events: none;
+}
+
+.category-tile:active .category-tile-noise {
+  opacity: 0.03;
+}
+
+.category-tile--custom .category-tile-atmosphere,
+.category-tile--custom .category-tile-noise {
+  opacity: 0.01;
+}
+
+.category-tile-inner {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  min-height: 100%;
+  gap: 0.5rem;
+}
+
+.category-tile-title {
+  display: block;
+  max-width: 11rem;
+}
+
+.category-tile-description {
+  max-width: 18rem;
+}
+
+.category-tile-affordance {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.35rem;
+  margin-left: auto;
+  margin-top: 0.15rem;
+}
+
+.category-tile-dot {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 9999px;
+  background: rgba(201, 162, 39, 0.95);
+}
+
+.category-tile-rule {
+  width: 24px;
+  border-top: 1px solid rgba(201, 162, 39, 0.26);
+}
+
+.category-tile:active .category-tile-rule {
+  width: 32px;
+}
+
+.category-view-all {
+  border-radius: 999px;
+}
+
+@media (min-width: 430px) {
+  .category-tile {
+    height: clamp(120px, 20vw, 150px);
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .category-tile {
+    height: clamp(140px, 15vw, 180px);
+    padding: 1.25rem;
+  }
+}
+
+/* Expertise placards */
+.expertise-card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--gold-hairline);
+  border-radius: 10px;
+  background: linear-gradient(175deg, rgba(19, 44, 34, 0.65), rgba(13, 31, 23, 0.95));
+  padding: 1.25rem;
+  transition: transform 0.14s ease, border-color 0.22s ease;
+}
+.expertise-card:active {
+  transform: scale(0.99);
+  border-color: var(--gold-hairline-strong);
+}
+.expertise-card-atmosphere {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 80% 0%, rgba(255, 255, 255, 0.05), transparent 46%),
+    linear-gradient(to bottom, rgba(201, 162, 39, 0.04), transparent 52%);
+  opacity: 0.38;
+  pointer-events: none;
+}
+.expertise-card-inner {
+  position: relative;
+}
+
+/* Concierge shell */
+.concierge-shell {
+  position: fixed;
+  right: 1.25rem;
+  z-index: 50;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid rgba(201, 162, 39, 0.4);
+  border-radius: 9999px;
+  background: var(--abyssal);
+  padding: 0.4rem 0.75rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+.concierge-shell--dot {
+  padding: 0.35rem;
+}
+.concierge-dot {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 9999px;
+}
+.concierge-dot {
+  box-shadow: 0 0 0 2px rgba(201, 162, 39, 0.3);
+  animation: concierge-pulse 4.5s ease-in-out infinite;
+}
+.concierge-label {
+  white-space: nowrap;
+}
+
+/* Footer divider helper */
+.top-divider {
+  height: 1px;
+  width: 100%;
+  background: rgba(201, 162, 39, 0.22);
+}
+
+/* 4:5 image viewport — consistent crop everywhere */
+.gallery-mount-frame {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: 6px;
+  min-height: 0;
+  transition: transform 0.7s ease;
+  transform-origin: center;
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .product-card-wrapper:hover .gallery-mount-frame {
+    transform: scale(1.02);
+  }
+}
+
+.gallery-mount-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 45%;
+  /* Harmonize to abyss: pull whites down, slight contrast, desaturate (refinement only) */
+  filter: brightness(0.96) contrast(1.04) saturate(0.94);
+}
+
+/* Spotlight falloff: center slightly above stone (50% 40%); barely perceive (~8% max) */
+.gallery-mount-vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse 80% 70% at 50% 40%,
+    transparent 42%,
+    rgba(13, 31, 23, 0.06) 72%,
+    rgba(13, 31, 23, 0.11) 100%
+  );
+}
+
+/* Micro glass sheen (3–6%) */
+.gallery-mount-glass {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    transparent 48%
+  );
+}
+
+/* Card product title: calmer than headers, 1–2 lines max */
+.product-card-title {
+  font-family: var(--font-serif, Georgia, "Times New Roman", serif);
+  font-size: 0.9375rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.35;
+  color: var(--cream);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Featured section */
+.featured-section-divider {
+  width: 60%;
+  max-width: 18rem;
+  height: 1px;
+  background: rgba(201, 162, 39, 0.22);
+}
+.featured-view-all {
+  border-radius: 9999px;
+  transition: border-color 0.22s ease;
+}
+
+.featured-card-title {
+  margin: 0;
+}
+
+.featured-card-body {
+  margin-top: 0.75rem;
+  line-height: 1.22;
+}
+
+.featured-card-body > .featured-card-title {
+  margin-bottom: 0.5rem;
+}
+
+.featured-card-price {
+  margin-top: 0.5rem;
+}
+
+.featured-card-spec {
+  margin-top: 0.4375rem;
+}
+
+.featured-card-body > .featured-view-piece {
+  margin-top: 0.75rem;
+}
+
+.featured-view-piece {
+  color: rgba(245, 240, 232, 0.86);
+  transition: transform 0.16s ease, opacity 0.16s ease;
+}
+
+.featured-view-piece:active {
+  transform: scale(0.98);
+  opacity: 0.88;
+}
+
+.featured-view-piece:hover {
+  color: rgba(245, 240, 232, 0.97);
+}
+
+.featured-view-piece-rule {
+  width: 22px;
+  height: 1px;
+  background: rgba(201, 162, 39, 0.55);
+  display: block;
+}
+
+/* Curated Entry unified commerce block */
+.curated-entry-shell {
+  background: linear-gradient(180deg, rgba(13, 31, 23, 0.78) 0%, rgba(13, 31, 23, 0.9) 100%);
+}
+
+.curated-entry-divider {
+  width: 60%;
+  max-width: 18rem;
+  height: 1px;
+  background: rgba(201, 162, 39, 0.24);
+}
+
+.curated-highlights-track {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(201, 162, 39, 0.32) transparent;
+}
+
+.curated-highlights-track::-webkit-scrollbar {
+  height: 5px;
+}
+
+.curated-highlights-track::-webkit-scrollbar-thumb {
+  background: rgba(201, 162, 39, 0.3);
+  border-radius: 9999px;
+}
+
+.curated-card-body {
+  line-height: 1.2;
+}
+
+.curated-card-body > * + * {
+  margin-top: 0.38rem;
+}
+
+.gallery-mount-curated {
+  padding: 8px;
+}
+
+.gallery-mount-curated .gallery-mount-mat {
+  padding: 10px;
+}
+
+.gallery-mount-curated .gallery-mount-frame {
+  border-radius: 5px;
+}
+
+.gallery-mount-curated .gallery-mount-vignette {
+  background: radial-gradient(
+    ellipse 80% 70% at 50% 40%,
+    transparent 40%,
+    rgba(13, 31, 23, 0.1) 72%,
+    rgba(13, 31, 23, 0.13) 100%
+  );
+}
+
+@media (min-width: 1024px) {
+  .curated-highlights-track {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    overflow: visible;
+    padding-bottom: 0;
+  }
+
+  .curated-highlight-card {
+    min-width: 0;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Concierge pill: slow subtle pulse (3.5–6s) */
+@keyframes concierge-pulse {
+  0%, 100% { opacity: 1; box-shadow: 0 0 0 2px rgba(201, 162, 39, 0.3); }
+  50% { opacity: 0.7; box-shadow: 0 0 0 4px rgba(201, 162, 39, 0.2); }
+}
+.concierge-dot {
+  box-shadow: 0 0 0 2px rgba(201, 162, 39, 0.3);
+  animation: concierge-pulse 4.5s ease-in-out infinite;
+}
