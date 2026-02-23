@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import ProductCard from "@/components/product/ProductCard";
+import { useCinemaScroll } from "@/lib/motion/useCinemaScroll";
 import type { CategoryTile, NormalizedProduct } from "@/lib/catalog/types";
 import { formatPrice } from "@/lib/format/price";
 import { getShortTitle } from "@/lib/format/titles";
@@ -18,6 +19,40 @@ function specLine(p: NormalizedProduct): string {
   return parts.length ? parts.join(" · ").toUpperCase() : p.primary_category?.toUpperCase() ?? "";
 }
 
+function CuratedCategoryTile({ tile }: { tile: CategoryTile }) {
+  const cinemaRef = useCinemaScroll<HTMLAnchorElement>({ plateMax: 12, fgMax: 7, fade: false });
+
+  return (
+    <Link
+      ref={cinemaRef}
+      href={tile.route}
+      className={`category-tile category-tile-row tap-scale cinema card-settle ${tile.id === "custom" ? "category-tile--custom" : ""}`}
+      aria-label={`Enter ${tile.title}`}
+      data-cta-id={`curated_category_${tile.id}`}
+      data-cta-label={tile.title}
+    >
+      <span className="cinema-plate absolute inset-0" aria-hidden>
+        <span className="category-tile-atmosphere" />
+        <span className="category-tile-noise" />
+      </span>
+      <span className="cinema-fg category-tile-inner relative">
+        <span>
+          <span className="category-tile-title font-serif text-xl font-normal leading-tight text-[#f5f0e8] sm:text-[1.4rem]">
+            {tile.title}
+          </span>
+          <span className="category-tile-description mt-1.5 block max-w-md text-[0.7rem] leading-snug text-[#f5f0e8]/75">
+            {tile.description}
+          </span>
+        </span>
+        <span className="category-tile-affordance" aria-hidden>
+          <span className="category-tile-dot" />
+          <span className="category-tile-rule" />
+        </span>
+      </span>
+    </Link>
+  );
+}
+
 export default function CuratedEntry({
   tiles,
   products,
@@ -27,12 +62,17 @@ export default function CuratedEntry({
 }) {
   const categories = orderedCategories(tiles).slice(0, 6);
   const highlights = Array.from(new Map(products.map((p) => [p.product_id, p])).values()).slice(0, 4);
+  const sectionCinemaRef = useCinemaScroll<HTMLDivElement>({ plateMax: 8, fgMax: 5, fade: false });
 
   return (
     <section className="bg-[var(--abyssal)] py-9 sm:py-11" data-concierge-safe="1">
       <div className="rail">
-        <div className="curated-entry-shell rounded-[12px] border border-[rgba(201,162,39,0.24)] px-5 py-5 sm:px-6 sm:py-6">
-          <div className="space-y-2">
+        <div
+          ref={sectionCinemaRef}
+          className="curated-entry-shell cinema card-settle relative overflow-hidden rounded-[12px] border border-[rgba(201,162,39,0.24)] px-5 py-5 sm:px-6 sm:py-6"
+        >
+          <span className="curated-entry-atmosphere cinema-plate pointer-events-none absolute inset-0" aria-hidden />
+          <div className="cinema-fg space-y-2">
             <p className="text-[0.66rem] font-medium uppercase tracking-[0.2em] text-[var(--cream)]/72">
               CURATED ENTRY
             </p>
@@ -45,36 +85,14 @@ export default function CuratedEntry({
             <div className="curated-entry-divider" aria-hidden />
           </div>
 
-          <div className="mt-4 lg:grid lg:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)] lg:gap-7">
+          <div className="cinema-fg mt-4 lg:grid lg:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)] lg:gap-7">
             <div>
               <p className="mb-3 text-[0.64rem] font-medium uppercase tracking-[0.16em] text-[var(--cream)]/66">
                 Our creations
               </p>
               <div className="grid gap-3">
                 {categories.map((tile) => (
-                  <Link
-                    key={tile.id}
-                    href={tile.route}
-                    className={`category-tile category-tile-row tap-scale ${tile.id === "custom" ? "category-tile--custom" : ""}`}
-                    aria-label={`Enter ${tile.title}`}
-                  >
-                    <span className="category-tile-atmosphere" aria-hidden />
-                    <span className="category-tile-noise" aria-hidden />
-                    <span className="category-tile-inner">
-                      <span>
-                        <span className="category-tile-title font-serif text-xl font-normal leading-tight text-[#f5f0e8] sm:text-[1.4rem]">
-                          {tile.title}
-                        </span>
-                        <span className="category-tile-description mt-1.5 block max-w-md text-[0.7rem] leading-snug text-[#f5f0e8]/75">
-                          {tile.description}
-                        </span>
-                      </span>
-                      <span className="category-tile-affordance" aria-hidden>
-                        <span className="category-tile-dot" />
-                        <span className="category-tile-rule" />
-                      </span>
-                    </span>
-                  </Link>
+                  <CuratedCategoryTile key={tile.id} tile={tile} />
                 ))}
               </div>
             </div>
@@ -93,6 +111,10 @@ export default function CuratedEntry({
                       mountMaxHeight="45vh"
                       contentClassName="curated-card-body mt-2.5"
                       conciergeSafeImageArea
+                      cinema
+                      cinemaPlateMax={10}
+                      cinemaFgMax={6}
+                      cinemaFade={false}
                     >
                       <p className="product-card-title">{getShortTitle(p.title, 38)}</p>
                       <p className="text-[0.78rem] font-normal text-[var(--cream)]/88">
@@ -114,10 +136,12 @@ export default function CuratedEntry({
             </div>
           </div>
 
-          <div className="mt-5 flex justify-center">
+          <div className="cinema-fg mt-5 flex justify-center">
             <Link
               href="/collections"
               className="featured-view-all tap-scale inline-flex items-center border border-[rgba(201,162,39,0.24)] px-4 py-2 text-[0.68rem] font-medium uppercase tracking-[0.2em] text-[#f5f0e8]"
+              data-cta-id="curated_explore_all_pieces"
+              data-cta-label="Explore all pieces"
             >
               Explore all pieces
             </Link>

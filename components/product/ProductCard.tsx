@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import GalleryMount from "@/components/product/GalleryMount";
 import ProductLoupe from "@/components/product/ProductLoupe";
+import { useCinemaScroll } from "@/lib/motion/useCinemaScroll";
 import type { NormalizedProduct } from "@/lib/catalog/types";
 
 function getSeoFilename(url: string): string {
@@ -29,6 +30,14 @@ export interface ProductCardProps {
   contentClassName?: string;
   /** Include mount area in concierge overlap-safe zones. */
   conciergeSafeImageArea?: boolean;
+  /** Optional cinema scroll depth animation. */
+  cinema?: boolean;
+  /** Plate drift range in px (desktop baseline). */
+  cinemaPlateMax?: number;
+  /** Foreground drift range in px (desktop baseline). */
+  cinemaFgMax?: number;
+  /** Fade in while entering viewport. */
+  cinemaFade?: boolean;
 }
 
 export default function ProductCard({
@@ -42,9 +51,18 @@ export default function ProductCard({
   mountFrameClassName = "",
   contentClassName = "",
   conciergeSafeImageArea = false,
+  cinema = false,
+  cinemaPlateMax = 10,
+  cinemaFgMax = 6,
+  cinemaFade = false,
 }: ProductCardProps) {
   const [loupeOpen, setLoupeOpen] = useState(false);
-  const cardRef = useRef<HTMLDivElement>(null);
+  const cardRef = useCinemaScroll<HTMLDivElement>({
+    plateMax: cinemaPlateMax,
+    fgMax: cinemaFgMax,
+    fade: cinemaFade,
+    enabled: cinema,
+  });
   const imgSrc = product.localImagePath ?? product.image_url;
   const images = [{ src: imgSrc, alt: product.alt_text }];
   const seoFilename = getSeoFilename(imgSrc);
@@ -116,11 +134,15 @@ export default function ProductCard({
 
   return (
     <>
-      <div ref={cardRef} className={`product-card-wrapper block ${className}`.trim()} data-product-card={product.product_id}>
+      <div
+        ref={cardRef}
+        className={`product-card-wrapper block ${cinema ? "cinema card-settle" : ""} ${className}`.trim()}
+        data-product-card={product.product_id}
+      >
         <div className="flex flex-col">
           <div
             data-concierge-safe={conciergeSafeImageArea ? "1" : undefined}
-            className="concierge-safe-image-area"
+            className={`concierge-safe-image-area ${cinema ? "cinema-plate" : ""}`.trim()}
           >
             <GalleryMount
               src={imgSrc}
@@ -136,7 +158,9 @@ export default function ProductCard({
           </div>
           <Link
             href={`/product/${product.handle}`}
-            className={`block mt-3 [&_.view-piece]:hover:text-[#f5f0e8] ${contentClassName}`.trim()}
+            className={`block mt-3 [&_.view-piece]:hover:text-[#f5f0e8] ${cinema ? "cinema-fg" : ""} ${contentClassName}`.trim()}
+            data-cta-id={`product_card_view_piece_${product.product_id.toLowerCase()}`}
+            data-cta-label="View piece"
           >
             {children}
           </Link>

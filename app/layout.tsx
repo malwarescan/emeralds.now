@@ -4,6 +4,7 @@ import { SITE_META } from "@/lib/seo/meta";
 import { organizationSchema, websiteSchema } from "@/lib/schema/emit";
 import ConciergeLiveDot from "@/components/concierge/ConciergeLiveDot";
 import RouteTransition from "@/components/motion/RouteTransition";
+import CtaClickCapture from "@/components/analytics/CtaClickCapture";
 
 export const metadata: Metadata = SITE_META;
 
@@ -30,6 +31,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(webSchema) }}
         />
         <RouteTransition>{children}</RouteTransition>
+        <CtaClickCapture />
         <ConciergeLiveDot />
       </body>
     </html>

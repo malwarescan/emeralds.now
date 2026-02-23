@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-02-22",
+  "source": "static code audit",
+  "items": [
+    {
+      "id": "hero_enter_collection",
+      "label": "Enter the collection",
+      "hrefOrAction": "/collections",
+      "component": "components/home/Hero.tsx",
+      "pages": ["/"],
+      "analyticsEvent": "cta_click",
+      "priority": "P1",
+      "status": "active"
+    },
+    {
+      "id": "butterfly_discover_atelier",
+      "label": "Discover the Atelier",
+      "hrefOrAction": "/atelier",
+      "component": "components/home/ButterflyMarkSection.tsx",
+      "pages": ["/"],
+      "analyticsEvent": "cta_click",
+      "priority": "P2",
+      "status": "active"
+    },
+    {
+      "id": "muzem_enter_atelier",
+      "label": "Enter the Atelier",
+      "hrefOrAction": "/atelier",
+      "component": "components/home/MuzemDynastySection.tsx",
+      "pages": ["/"],
+      "analyticsEvent": "cta_click",
+      "priority": "P2",
+      "status": "active"
+    },
+    {
+      "id": "curated_explore_all_pieces",
+      "label": "Explore all pieces",
+      "hrefOrAction": "/collections",
+      "component": "components/home/CuratedEntry.tsx",
+      "pages": ["/"],
+      "analyticsEvent": "cta_click",
+      "priority": "P1",
+      "status": "active"
+    },
+    {
+      "id": "curated_category_tiles",
+      "label": "Category tile links",
+      "hrefOrAction": "tile.route (mostly /collections/*, custom => /concierge)",
+      "component": "components/home/CuratedEntry.tsx",
+      "pages": ["/"],
+      "analyticsEvent": null,
+      "priority": "P0",
+      "status": "active"
+    },
+    {
+      "id": "product_card_view_piece",
+      "label": "View piece",
+      "hrefOrAction": "/product/[handle]",
+      "component": "components/product/ProductCard.tsx",
+      "pages": ["/", "/collections/[handle]"],
+      "analyticsEvent": "cta_click",
+      "priority": "P0",
+      "status": "active"
+    },
+    {
+      "id": "pdp_acquire",
+      "label": "Acquire",
+      "hrefOrAction": "/cart?add=[product_id]",
+      "component": "components/product/StickyAcquireBar.tsx",
+      "pages": ["/product/[handle]"],
+      "analyticsEvent": "cta_click",
+      "priority": "P0",
+      "status": "active"
+    },
+    {
+      "id": "pdp_request_availability",
+      "label": "Request availability",
+      "hrefOrAction": "/concierge",
+      "component": "components/product/StickyAcquireBar.tsx",
+      "pages": ["/product/[handle]"],
+      "analyticsEvent": "cta_click",
+      "priority": "P0",
+      "status": "active"
+    },
+    {
+      "id": "floating_concierge_pill",
+      "label": "An artisan is available.",
+      "hrefOrAction": "/concierge",
+      "component": "components/concierge/ConciergeLiveDot.tsx",
+      "pages": ["global"],
+      "analyticsEvent": "cta_click",
+      "priority": "P0",
+      "status": "active"
+    },
+    {
+      "id": "atelier_speak_with_concierge",
+      "label": "Speak with Concierge",
+      "hrefOrAction": "/concierge",
+      "component": "app/atelier/page.tsx",
+      "pages": ["/atelier"],
+      "analyticsEvent": "cta_click",
+      "priority": "P0",
+      "status": "active"
+    },
+    {
+      "id": "footer_concierge",
+      "label": "Concierge",
+      "hrefOrAction": "/concierge",
+      "component": "components/layout/SiteFooter.tsx",
+      "pages": ["global"],
+      "analyticsEvent": "cta_click",
+      "priority": "P0",
+      "status": "active"
+    },
+    {
+      "id": "footer_faq",
+      "label": "FAQ",
+      "hrefOrAction": "/faq",
+      "component": "components/layout/SiteFooter.tsx",
+      "pages": ["global"],
+      "analyticsEvent": "cta_click",
+      "priority": "P1",
+      "status": "active"
+    },
+    {
+      "id": "footer_education_links",
+      "label": "Education links",
+      "hrefOrAction": "/education/*",
+      "component": "components/layout/SiteFooter.tsx",
+      "pages": ["global"],
+      "analyticsEvent": "cta_click",
+      "priority": "P1",
+      "status": "active"
+    },
+    {
+      "id": "expertise_cards",
+      "label": "Proof & expertise cards",
+      "hrefOrAction": "/education/*",
+      "component": "components/home/ExpertiseLinks.tsx",
+      "pages": ["/"],
+      "analyticsEvent": "cta_click",
+      "priority": "P1",
+      "status": "broken-route"
+    },
+    {
+      "id": "collections_back_home",
+      "label": "Home back link",
+      "hrefOrAction": "/",
+      "component": "app/collections/[handle]/page.tsx",
+      "pages": ["/collections/[handle]"],
+      "analyticsEvent": null,
+      "priority": "P3",
+      "status": "active"
+    }
+  ]
+}

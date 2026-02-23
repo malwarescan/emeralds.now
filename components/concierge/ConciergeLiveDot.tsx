@@ -66,6 +66,8 @@ export default function ConciergeLiveDot() {
       className={`tap-scale concierge-shell ${dotOnly ? "concierge-shell--dot" : ""}`}
       style={{ bottom: isPDP ? "5.5rem" : "1.5rem" }}
       aria-label="An artisan is available — open concierge"
+      data-cta-id="floating_concierge_pill"
+      data-cta-label="An artisan is available"
     >
       <span
         className="concierge-dot h-2 w-2 rounded-full bg-[rgba(201,162,39,0.9)]"

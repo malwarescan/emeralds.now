@@ -4,6 +4,7 @@ import { getCategoryTiles } from "@/lib/catalog/categories";
 import { getProductsByCollectionHandle } from "@/lib/catalog/catalog";
 import { formatPrice } from "@/lib/format/price";
 import { getShortTitle } from "@/lib/format/titles";
+import { breadcrumbSchema } from "@/lib/schema/emit";
 import ProductCard from "@/components/product/ProductCard";
 
 const COLLECTION_HANDLES = ["rings", "earrings", "pendants", "bracelets", "chains", "one-of-one"];
@@ -35,6 +36,8 @@ export async function generateMetadata({ params }: { params: Promise<{ handle: s
   return {
     title: `${title} | Muzem Emeralds`,
     description,
+    alternates: { canonical: `/collections/${handleLower}` },
+    openGraph: { url: `/collections/${handleLower}` },
   };
 }
 
@@ -54,9 +57,15 @@ export default async function CollectionPage({ params }: { params: Promise<{ han
   if (!tile) notFound();
 
   const products = getProductsByCollectionHandle(handleLower);
+  const breadcrumbs = breadcrumbSchema([
+    { name: "Home", url: "https://emeralds.now/" },
+    { name: "Collections", url: "https://emeralds.now/collections" },
+    { name: tile.title, url: `https://emeralds.now/collections/${handleLower}` },
+  ]);
 
   return (
     <main className="min-h-full w-full bg-[var(--abyssal)] py-6 sm:py-10">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }} />
       <div className="rail">
         <Link
           href="/"

@@ -7,16 +7,22 @@ import path from "path";
 import type { Metadata } from "next";
 
 const META_TAGS_PATH = path.join(process.cwd(), "seo", "meta_tags.json");
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://emeralds.now";
 
 export const SITE_META: Metadata = {
+  metadataBase: new URL(BASE_URL),
   title: "Éméraude Royale | Muzem Emeralds – Official Online Store",
   description:
     "Official online store for Muzem Emeralds. Certified Colombian emerald jewelry — rings, earrings, pendants, bracelets. 4th generation family artisans.",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Éméraude Royale | Muzem Emeralds",
     description: "Official online store for Muzem Emeralds. Certified Colombian emerald jewelry.",
     siteName: "Muzem Emeralds",
     type: "website",
+    url: "/",
   },
   twitter: {
     card: "summary_large_image",
@@ -54,7 +60,6 @@ export function getMetaForProduct(productId: string): Metadata | null {
   const rows = loadMetaTags();
   const row = rows.find((r) => r.product_id === productId);
   if (!row) return null;
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://emeralds.now";
   return {
     title: row.meta_title ?? row.og_title ?? undefined,
     description: row.meta_description ?? row.og_description ?? undefined,

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useCinemaScroll } from "@/lib/motion/useCinemaScroll";
 import type { CategoryTile } from "@/lib/catalog/types";
 
 const GATEWAY_ORDER = ["rings", "earrings", "pendants", "bracelets", "chains", "one-of-one", "custom"];
@@ -8,6 +9,38 @@ const GATEWAY_ORDER = ["rings", "earrings", "pendants", "bracelets", "chains", "
 function orderTiles(tiles: CategoryTile[]) {
   const bySlug = new Map(tiles.map((tile) => [tile.id, tile]));
   return GATEWAY_ORDER.map((id) => bySlug.get(id)).filter(Boolean).slice(0, 6) as CategoryTile[];
+}
+
+function GatewayTile({ tile }: { tile: CategoryTile }) {
+  const cinemaRef = useCinemaScroll<HTMLAnchorElement>({ plateMax: 12, fgMax: 7, fade: false });
+
+  return (
+    <Link
+      ref={cinemaRef}
+      href={tile.route}
+      className={`category-tile category-tile-row tap-scale cinema card-settle ${tile.id === "custom" ? "category-tile--custom" : ""}`}
+      aria-label={`Enter ${tile.title}`}
+    >
+      <span className="cinema-plate absolute inset-0" aria-hidden>
+        <span className="category-tile-atmosphere" />
+        <span className="category-tile-noise" />
+      </span>
+      <span className="cinema-fg category-tile-inner relative">
+        <span>
+          <span className="category-tile-title font-serif text-xl font-normal leading-tight text-[#f5f0e8] sm:text-[1.4rem]">
+            {tile.title}
+          </span>
+          <span className="category-tile-description mt-1.5 block max-w-md text-[0.7rem] leading-snug text-[#f5f0e8]/75">
+            {tile.description}
+          </span>
+        </span>
+        <span className="category-tile-affordance" aria-hidden>
+          <span className="category-tile-dot" />
+          <span className="category-tile-rule" />
+        </span>
+      </span>
+    </Link>
+  );
 }
 
 export default function CategoryTiles({ tiles }: { tiles: CategoryTile[] }) {
@@ -33,29 +66,7 @@ export default function CategoryTiles({ tiles }: { tiles: CategoryTile[] }) {
         </div>
         <div className="mt-5 grid gap-3">
           {orderedTiles.map((tile) => (
-            <Link
-              key={tile.id}
-              href={tile.route}
-              className={`category-tile category-tile-row tap-scale ${tile.id === "custom" ? "category-tile--custom" : ""}`}
-              aria-label={`Enter ${tile.title}`}
-            >
-              <span className="category-tile-atmosphere" aria-hidden />
-              <span className="category-tile-noise" aria-hidden />
-              <span className="category-tile-inner">
-                <span>
-                  <span className="category-tile-title font-serif text-xl font-normal leading-tight text-[#f5f0e8] sm:text-[1.4rem]">
-                    {tile.title}
-                  </span>
-                  <span className="category-tile-description mt-1.5 block max-w-md text-[0.7rem] leading-snug text-[#f5f0e8]/75">
-                    {tile.description}
-                  </span>
-                </span>
-                <span className="category-tile-affordance" aria-hidden>
-                  <span className="category-tile-dot" />
-                  <span className="category-tile-rule" />
-                </span>
-              </span>
-            </Link>
+            <GatewayTile key={tile.id} tile={tile} />
           ))}
         </div>
         <div className="mt-4">

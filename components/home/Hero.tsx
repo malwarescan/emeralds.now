@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 
 const HERO_VIDEO = "/images/hero/emeralds-intro.mp4";
@@ -52,47 +51,50 @@ export default function Hero() {
       className="relative flex min-h-[72vh] max-h-[78vh] w-full flex-col justify-end overflow-hidden bg-[var(--abyssal)] px-4 pb-10 pt-24 sm:min-h-[75vh] sm:pb-16"
       style={{ minHeight: "72vh", maxHeight: "78vh" }}
     >
-      {/* Layer 1: Video — always in DOM so it loads; hidden when gated */}
-      <div
-        className="absolute inset-0 z-[1]"
-        style={{ visibility: allowVideo ? "visible" : "hidden" }}
-      >
-        <video
-          ref={videoRef}
-          className="h-full w-full object-cover"
-          src={HERO_VIDEO}
-          poster={HERO_POSTER}
-          preload="auto"
-          muted
-          loop
-          playsInline
-          autoPlay
-          disablePictureInPicture
-          onCanPlay={(e) => {
-            if (allowVideo) e.currentTarget.play().catch(() => {});
-          }}
-          onError={(e) => {
-            e.currentTarget.style.display = "none";
-          }}
-          aria-hidden
-        />
+      <div className="absolute inset-x-0 -inset-y-8">
+        {/* Layer 1: Video — always in DOM so it loads; hidden when gated */}
+        <div
+          className="absolute inset-0 z-[1]"
+          style={{ visibility: allowVideo ? "visible" : "hidden" }}
+        >
+          <video
+            ref={videoRef}
+            className="h-full w-full object-cover"
+            src={HERO_VIDEO}
+            poster={HERO_POSTER}
+            preload="auto"
+            muted
+            loop
+            playsInline
+            autoPlay
+            disablePictureInPicture
+            onCanPlay={(e) => {
+              if (allowVideo) e.currentTarget.play().catch(() => {});
+            }}
+            onError={(e) => {
+              e.currentTarget.style.display = "none";
+            }}
+            aria-hidden
+          />
+        </div>
+
+        {/* Layer 2: Image fallback — always present for LCP and when video is gated or fails */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src={HERO_POSTER}
+            alt=""
+            className="h-full w-full object-cover"
+            fetchPriority="high"
+            decoding="async"
+          />
+        </div>
+
       </div>
 
-      {/* Layer 2: Image fallback — always present for LCP and when video is gated or fails */}
-      <div className="absolute inset-0 z-0">
-        <img
-          src={HERO_POSTER}
-          alt=""
-          className="h-full w-full object-cover"
-          fetchPriority="high"
-          decoding="async"
-        />
-      </div>
-
-      {/* Layer 3: Bottom dissolve scrim — blends video/poster into abyss (no hard cutoff) */}
+      {/* Layer 3: Bottom dissolve scrim — anchored to section to prevent seam slivers */}
       <div className="hero-bottom-scrim pointer-events-none absolute inset-x-0 bottom-0 z-[2]" aria-hidden />
 
-      {/* Layer 4: Veil — text-safe, abyssal green only, calmer center/bottom */}
+      {/* Layer 4: Veil — anchored to section so edge blend remains locked */}
       <div
         className="pointer-events-none absolute inset-0 z-[3]"
         style={{
@@ -112,13 +114,6 @@ export default function Hero() {
         <p className="mb-5 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-[#f5f0e8]/90">
           Certified Colombian Emeralds · Fourth Generation Artisans
         </p>
-        <Link
-          href="/collections/rings"
-          className="hero-cta tap-scale inline-block bg-transparent px-8 py-3 text-xs font-medium uppercase tracking-[0.2em] text-[#f5f0e8] sm:text-[0.7rem]"
-          aria-label="Enter the collection"
-        >
-          Enter the collection
-        </Link>
       </div>
     </section>
   );

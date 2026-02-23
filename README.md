@@ -1,6 +1,11 @@
 # Éméraude Royale — Emeralds.now
 
-Mobile-first “Maison portal” for Muzem Emeralds. Abyssal green + gold hairlines, Stripe checkout, Railway hosting. Catalog source: Muzem (official online distributor).
+Mobile-first “Maison portal” for Muzem Emeralds. Abyssal green + gold hairlines, Shopify cart + Shopify hosted checkout, Railway hosting. Catalog source: Muzem (official online distributor).
+
+## Commerce decision (locked)
+
+- Primary commerce flow: Shopify Storefront cart -> Shopify hosted checkout.
+- Stripe: secondary only (concierge invoices / deposits), not PDP default.
 
 ## Data spine (source of truth)
 

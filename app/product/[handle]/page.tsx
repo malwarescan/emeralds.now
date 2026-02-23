@@ -1,10 +1,17 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getProductByHandle } from "@/lib/catalog/catalog";
-import { productSchema } from "@/lib/schema/emit";
+import { breadcrumbSchema, productSchema } from "@/lib/schema/emit";
 import StickyAcquireBar from "@/components/product/StickyAcquireBar";
 import PdpGallery from "@/components/product/PdpGallery";
 import { formatPrice } from "@/lib/format/price";
+
+function collectionHandleForProduct(category?: string) {
+  const normalized = (category ?? "").toLowerCase().trim();
+  if (!normalized) return "";
+  if (normalized === "one-of-one") return "one-of-one";
+  return normalized.endsWith("s") ? normalized : `${normalized}s`;
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ handle: string }> }) {
   const { handle } = await params;
@@ -12,7 +19,19 @@ export async function generateMetadata({ params }: { params: Promise<{ handle: s
   if (!product) return { title: "Product | Muzem Emeralds" };
   const { getMetaForProduct } = await import("@/lib/seo/meta");
   const meta = getMetaForProduct(product.product_id);
-  return meta ?? { title: product.title, description: product.meta_description ?? product.description };
+  if (meta) {
+    return {
+      ...meta,
+      alternates: { canonical: `/product/${product.handle}` },
+      openGraph: { ...(meta.openGraph ?? {}), url: `/product/${product.handle}` },
+    };
+  }
+  return {
+    title: product.title,
+    description: product.meta_description ?? product.description,
+    alternates: { canonical: `/product/${product.handle}` },
+    openGraph: { url: `/product/${product.handle}` },
+  };
 }
 
 export default async function ProductPage({ params }: { params: Promise<{ handle: string }> }) {
@@ -21,6 +40,14 @@ export default async function ProductPage({ params }: { params: Promise<{ handle
   if (!product) notFound();
 
   const schema = productSchema(product);
+  const collectionHandle = collectionHandleForProduct(product.primary_category);
+  const collectionUrl = collectionHandle ? `https://emeralds.now/collections/${collectionHandle}` : "https://emeralds.now/collections";
+  const breadcrumbs = breadcrumbSchema([
+    { name: "Home", url: "https://emeralds.now/" },
+    { name: "Collections", url: "https://emeralds.now/collections" },
+    { name: product.primary_category || "Collection", url: collectionUrl },
+    { name: product.title, url: `https://emeralds.now/product/${product.handle}` },
+  ]);
 
   return (
     <>
@@ -28,6 +55,10 @@ export default async function ProductPage({ params }: { params: Promise<{ handle
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }}
         />
         <div className="rail py-6">
           <Link

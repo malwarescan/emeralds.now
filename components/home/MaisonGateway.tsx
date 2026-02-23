@@ -1,9 +1,11 @@
+"use client";
+
 const STATEMENT =
   "Four generations of Colombian artisans. Each stone is certified; each piece is singular. We bring the mines of Muzo and Chivor to the world through heirloom jewelry.";
 
 export default function MaisonGateway() {
   return (
-    <section className="relative bg-[var(--abyssal)] pt-16 pb-12 sm:pt-20 sm:pb-14 -mt-8 sm:-mt-12">
+    <section className="relative bg-[var(--abyssal)] pt-12 pb-14 sm:pt-14 sm:pb-16">
       {/* Top scrim: section fades in from hero atmosphere (no snap) */}
       <div className="section-top-scrim pointer-events-none absolute inset-x-0 top-0 z-0" aria-hidden />
       <div className="rail relative z-10">

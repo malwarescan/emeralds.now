@@ -60,6 +60,42 @@ body {
   transform: scale(0.98);
 }
 
+/* CINEMA SCROLL — subtle depth for luxury */
+.cinema {
+  --cinema-plate-y: 0px;
+  --cinema-fg-y: 0px;
+  --cinema-a: 1;
+
+  opacity: var(--cinema-a);
+  transform: translate3d(0, 0, 0);
+  will-change: transform, opacity;
+}
+
+.cinema-plate {
+  transform: translate3d(0, var(--cinema-plate-y), 0);
+  will-change: transform;
+}
+
+.cinema-fg {
+  transform: translate3d(0, var(--cinema-fg-y), 0);
+  will-change: transform;
+}
+
+.cinema.card-settle {
+  transform: translate3d(0, calc((1 - var(--cinema-a)) * 10px), 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cinema,
+  .cinema-plate,
+  .cinema-fg {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    will-change: auto !important;
+  }
+}
+
 /* Utility: hairline gold border */
 .hairline {
   border: 1px solid var(--gold-hairline);
@@ -153,13 +189,18 @@ body {
 
 /* Butterfly Mark editorial interlude (between gateway and featured). */
 .butterfly-mark-wrap {
-  margin-top: clamp(28px, 8vw, 44px);
-  margin-bottom: clamp(28px, 8vw, 44px);
+  margin-top: clamp(120px, 16vw, 180px);
+  margin-bottom: clamp(72px, 10vw, 120px);
+  position: relative;
+  width: 100%;
 }
 
 .butterfly-mark-shell {
+  position: relative;
   min-height: 72vh;
   max-height: 78vh;
+  width: 100%;
+  isolation: isolate;
 }
 
 @media (min-width: 1024px) {
@@ -167,6 +208,18 @@ body {
     min-height: 68vh;
     max-height: 76vh;
   }
+}
+
+.butterfly-mark-background-layer {
+  z-index: 0;
+}
+
+.butterfly-mark-content-rail {
+  z-index: 10;
+}
+
+.butterfly-mark-media {
+  overflow: hidden;
 }
 
 .butterfly-mark-veil {
@@ -183,6 +236,49 @@ body {
       rgba(13, 31, 23, 0.36) 0%,
       transparent 50%
     );
+}
+
+.butterfly-mark-top-scrim {
+  height: 140px;
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--abyssal) 95%, transparent) 0%,
+    transparent 100%
+  );
+  z-index: 30;
+}
+
+.butterfly-mark-bottom-scrim {
+  height: 300px;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    color-mix(in srgb, var(--abyssal) 22%, transparent) 40%,
+    color-mix(in srgb, var(--abyssal) 55%, transparent) 62%,
+    color-mix(in srgb, var(--abyssal) 82%, transparent) 82%,
+    color-mix(in srgb, var(--abyssal) 96%, transparent) 94%,
+    var(--abyssal) 100%
+  );
+  z-index: 30;
+}
+
+@media (min-width: 768px) {
+  .butterfly-mark-top-scrim {
+    height: 200px;
+  }
+
+  .butterfly-mark-bottom-scrim {
+    height: 420px;
+  }
+}
+
+.butterfly-mark-grain {
+  background-image: url("/images/textures/grain.svg");
+  background-repeat: repeat;
+  background-size: 220px 220px;
+  opacity: 0.03;
+  mix-blend-mode: soft-light;
+  z-index: 20;
 }
 
 .butterfly-mark-cta {
@@ -289,6 +385,13 @@ body {
 }
 .services-item:first-child {
   border-top-width: 0;
+}
+
+.services-item-atmosphere {
+  background:
+    radial-gradient(circle at 12% 50%, rgba(201, 162, 39, 0.05), transparent 44%),
+    linear-gradient(to bottom, rgba(19, 44, 34, 0.24), rgba(13, 31, 23, 0));
+  opacity: 0.46;
 }
 
 .services-accordion-button {
@@ -696,6 +799,13 @@ body {
 /* Curated Entry unified commerce block */
 .curated-entry-shell {
   background: linear-gradient(180deg, rgba(13, 31, 23, 0.78) 0%, rgba(13, 31, 23, 0.9) 100%);
+}
+
+.curated-entry-atmosphere {
+  background:
+    radial-gradient(circle at 18% 14%, rgba(255, 255, 255, 0.04), transparent 40%),
+    radial-gradient(circle at 78% 80%, rgba(201, 162, 39, 0.06), transparent 42%);
+  opacity: 0.55;
 }
 
 .curated-entry-divider {

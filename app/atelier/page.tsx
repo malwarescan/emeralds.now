@@ -18,6 +18,8 @@ export const metadata = {
   title: "Atelier | Muzem Emeralds",
   description:
     "The Muzem dynasty: origin context, Colombian emerald provenance, certification discipline, craft standards, and insured delivery.",
+  alternates: { canonical: "/atelier" },
+  openGraph: { url: "/atelier" },
 };
 
 export default function AtelierPage() {
@@ -116,6 +118,8 @@ export default function AtelierPage() {
                 <Link
                   href="/concierge"
                   className="tap-scale inline-flex items-center border border-[rgba(201,162,39,0.4)] px-4 py-2 text-[0.68rem] font-medium uppercase tracking-[0.18em] text-[var(--cream)]"
+                  data-cta-id="atelier_speak_concierge"
+                  data-cta-label="Speak with Concierge"
                 >
                   Speak with Concierge
                 </Link>

@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import GalleryMount from "@/components/product/GalleryMount";
+import { useCinemaScroll } from "@/lib/motion/useCinemaScroll";
 
 const DYNASTY_IMAGE = "/images/editorial/muzem-dynasty.webp";
 
@@ -15,11 +18,16 @@ function ProofPillar({ title, text }: { title: string; text: string }) {
 }
 
 export default function MuzemDynastySection() {
+  const cinemaRef = useCinemaScroll<HTMLDivElement>({ plateMax: 8, fgMax: 5, fade: false });
+
   return (
     <section className="bg-[var(--abyssal)] py-9 sm:py-11" data-concierge-safe="1">
       <div className="rail">
-        <div className="grid gap-6 lg:grid-cols-[minmax(0,0.78fr)_minmax(0,1.22fr)] lg:items-start lg:gap-10">
-          <div className="max-w-[28rem]">
+        <div
+          ref={cinemaRef}
+          className="cinema card-settle grid gap-6 lg:grid-cols-[minmax(0,0.78fr)_minmax(0,1.22fr)] lg:items-start lg:gap-10"
+        >
+          <div className="cinema-plate max-w-[28rem]">
             <GalleryMount
               src={DYNASTY_IMAGE}
               alt="Emerald with butterfly motif representing protected origin and maison identity."
@@ -29,7 +37,7 @@ export default function MuzemDynastySection() {
               frameClassName="gallery-mount-editorial-frame"
             />
           </div>
-          <div className="space-y-5">
+          <div className="cinema-fg space-y-5">
             <div className="space-y-2">
               <p className="text-[0.65rem] font-medium uppercase tracking-[0.2em] text-[var(--cream)]/72">
                 THE MUZEM DYNASTY
@@ -81,6 +89,8 @@ export default function MuzemDynastySection() {
               <Link
                 href="/atelier"
                 className="muzem-dynasty-cta tap-scale inline-flex items-center border border-[rgba(201,162,39,0.46)] px-5 py-2.5 text-[0.67rem] font-medium uppercase tracking-[0.2em] text-[#f5f0e8]"
+                data-cta-id="muzem_enter_atelier"
+                data-cta-label="Enter the Atelier"
               >
                 Enter the Atelier
               </Link>

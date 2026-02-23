@@ -41,6 +41,10 @@ export default function FeaturedCreations({ products }: { products: NormalizedPr
                 mountMaxHeight="56vh"
                 contentClassName="featured-card-body mt-3"
                 conciergeSafeImageArea
+                cinema
+                cinemaPlateMax={10}
+                cinemaFgMax={6}
+                cinemaFade={false}
               >
                 <p className="product-card-title featured-card-title">{getShortTitle(p.title, 44)}</p>
                 <p className="featured-card-price text-[0.8125rem] font-normal text-[var(--cream)]/90">
